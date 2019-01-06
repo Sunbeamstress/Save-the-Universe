@@ -1,0 +1,5487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<HostPackage>
+		<Host autoClearCommandLineAfterSend="no" disableAutoCompletion="no" printCommand="yes" USE_IRE_DRIVER_BUGFIX="yes" mUSE_FORCE_LF_AFTER_PROMPT="no" mUSE_UNIX_EOL="no" mNoAntiAlias="no" mEchoLuaErrors="yes" runAllKeyMatches="no" AmbigousWidthGlyphsToBeWide="auto" mRawStreamDump="no" mIsLoggingTimestamps="no" logDirectory="" logFileName="" logFileNameFormat="yyyy-MM-dd#HH-mm-ss" mAlertOnNewData="yes" mFORCE_NO_COMPRESSION="no" mFORCE_GA_OFF="no" mFORCE_SAVE_ON_EXIT="no" mEnableGMCP="yes" mEnableMSDP="no" mMapStrongHighlight="no" mLogStatus="no" mEnableSpellCheck="yes" mShowInfo="yes" mAcceptServerGUI="yes" mMapperUseAntiAlias="yes" mFORCE_MXP_NEGOTIATION_OFF="no" enableTextAnalyzer="no" mRoomSize="0.5" mLineSize="10.0" mBubbleMode="no" mShowRoomIDs="no" mShowPanel="yes" mHaveMapperScript="yes" mEditorTheme="Bluloco Dark" mEditorThemeFile="bluloco-dark.tmTheme" mThemePreviewItemID="4" mThemePreviewType="trigger" mSearchEngineName="Google" mTimerSupressionInterval="00:00:00.000" mDiscordAccessFlags="447" mRequiredDiscordUserName="" mRequiredDiscordUserDiscriminator="" mDoubleClickIgnore="&quot;'">
+			<name>Starmourn</name>
+			<mInstalledPackages>
+				<string>deleteOldProfiles</string>
+				<string>echo</string>
+				<string>run-lua-code-v4</string>
+				<string>send-text-to-all-games</string>
+				<string>asdf</string>
+				<string>dsfargeg</string>
+			</mInstalledPackages>
+			<url>starmourn.com</url>
+			<serverPackageName>nothing</serverPackageName>
+			<serverPackageVersion>-1</serverPackageVersion>
+			<port>23</port>
+			<borderTopHeight>0</borderTopHeight>
+			<borderBottomHeight>22</borderBottomHeight>
+			<borderLeftWidth>0</borderLeftWidth>
+			<borderRightWidth>0</borderRightWidth>
+			<wrapAt>100</wrapAt>
+			<wrapIndentCount>0</wrapIndentCount>
+			<mFgColor>#c0c0c0</mFgColor>
+			<mBgColor>#000000</mBgColor>
+			<mCommandFgColor>#717100</mCommandFgColor>
+			<mCommandBgColor>#000000</mCommandBgColor>
+			<mCommandLineFgColor>#808080</mCommandLineFgColor>
+			<mCommandLineBgColor>#000000</mCommandLineBgColor>
+			<mBlack>#000000</mBlack>
+			<mLightBlack>#808080</mLightBlack>
+			<mRed>#800000</mRed>
+			<mLightRed>#ff0000</mLightRed>
+			<mBlue>#000080</mBlue>
+			<mLightBlue>#0055ff</mLightBlue>
+			<mGreen>#008000</mGreen>
+			<mLightGreen>#00ff00</mLightGreen>
+			<mYellow>#808000</mYellow>
+			<mLightYellow>#ffff00</mLightYellow>
+			<mCyan>#008080</mCyan>
+			<mLightCyan>#00ffff</mLightCyan>
+			<mMagenta>#800080</mMagenta>
+			<mLightMagenta>#ff00ff</mLightMagenta>
+			<mWhite>#c0c0c0</mWhite>
+			<mLightWhite>#ffffff</mLightWhite>
+			<mDisplayFont>Bitstream Vera Sans Mono,10,-1,5,50,0,0,0,1,0</mDisplayFont>
+			<mCommandLineFont>Bitstream Vera Sans Mono,10,-1,5,50,0,0,0,0,0</mCommandLineFont>
+			<mCommandSeparator>;;</mCommandSeparator>
+			<commandLineMinimumHeight>30</commandLineMinimumHeight>
+			<mFgColor2>#c0c0c0</mFgColor2>
+			<mBgColor2>#000000</mBgColor2>
+			<mBlack2>#000000</mBlack2>
+			<mLightBlack2>#808080</mLightBlack2>
+			<mRed2>#800000</mRed2>
+			<mLightRed2>#ff0000</mLightRed2>
+			<mBlue2>#000080</mBlue2>
+			<mLightBlue2>#0055ff</mLightBlue2>
+			<mGreen2>#008000</mGreen2>
+			<mLightGreen2>#00ff00</mLightGreen2>
+			<mYellow2>#808000</mYellow2>
+			<mLightYellow2>#ffff00</mLightYellow2>
+			<mCyan2>#008080</mCyan2>
+			<mLightCyan2>#00ffff</mLightCyan2>
+			<mMagenta2>#800080</mMagenta2>
+			<mLightMagenta2>#ff00ff</mLightMagenta2>
+			<mWhite2>#c0c0c0</mWhite2>
+			<mLightWhite2>#ffffff</mLightWhite2>
+			<mSpellDic>en_US</mSpellDic>
+			<mLineSize>10.0</mLineSize>
+			<mRoomSize>0.5</mRoomSize>
+		</Host>
+	</HostPackage>
+	<TriggerPackage>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Prompt</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Prompt Trigger</name>
+				<script>raiseEvent("su.prompt")</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string></string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>7</integer>
+				</regexCodePropertyList>
+			</Trigger>
+		</TriggerGroup>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="yes" isColorTriggerFg="yes" isColorTriggerBg="yes">
+			<name>Rooms</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#ffffff</colorTriggerFgColor>
+			<colorTriggerBgColor>#808000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="yes" isColorTriggerFg="yes" isColorTriggerBg="yes">
+				<name>Room Header</name>
+				<script>if inHack() then
+	return
+end
+
+local env_color = getEnvironmentColor(su.room.env)
+local env_name = su.room.env
+if su.env.name_id[su.room.env] then
+	env_name = su.env.id[su.env.name_id[su.room.env]].short
+end
+local room_name = su.room.name
+if room_name:sub(-1, 1) ~= "." then
+	room_name = room_name .. "."
+end
+
+erase()
+cecho("&lt;royal_blue&gt;%s &lt;%s&gt;%s &lt;royal_blue&gt;| &lt;a_brown&gt;%s\n      &lt;sea_green&gt;%s"
+	% {string.jright(su.room.num, 5), env_color, env_name:lower(), room_name:jleft(70), su.room.area})</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#ffff00</colorTriggerFgColor>
+				<colorTriggerBgColor>#800000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>FG7BG4</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>6</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Room Exits</name>
+				<script>local dir, room_name = matches[2], matches[3]
+
+erase()
+cecho("&lt;forest_green&gt;%s &lt;a_darkgrey&gt;%s" % {dir:upper():jright(5), room_name})</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>^\[(\w+)\] \-\&gt; (.+)$</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Room Exits (None)</name>
+				<script>erase()
+cecho("    &lt;forest_green&gt;- &lt;a_darkgrey&gt;No obvious exits.")</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>There are no obvious exits.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+		</TriggerGroup>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Combat</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Hunting</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Enemy Charging Attack</name>
+					<script>su.enemy.danger = true</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Erratically bobbing in midair, a glitch-riddled security drone flashes blood red warning lights.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>You Have Slain Something</name>
+				<script>raiseEvent("su.slain_target", matches[2])</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>^You have slain (.+)\.$</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Invalid Target</name>
+				<script>if su.hunting.currently_attacking == true then
+	erase()
+	if su.hunting.superhunting ~= true or su.hunting.hunt_target == nil then
+  	su.hunting.currently_attacking = false
+  	notify("Hunting", "Room cleared.")
+	else
+		attempt("notification", notify, "Superhunting", "Target dead. Acquiring new target.", false)
+	end
+end</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>You can find no such target.</string>
+					<string>Error("NO_TARGET")</string>
+					<string>^You are at the wrong elevation to be able to interact with .+\.$</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+					<integer>3</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Loot</name>
+				<script>local loot = matches[2]
+local gather_string = string.split(matches[1], loot)
+local loot_string = string.split(loot, " and")
+
+for i, l in ipairs(loot_string) do
+		loot_string[i] = "&lt;dark_goldenrod&gt;" .. loot_string[i] .. "&lt;a_darkgrey&gt;"
+		if i &lt; #loot_string then
+			loot_string[i] = loot_string[i] .. " and"
+		end
+end
+
+erase()
+cecho("&lt;a_darkgrey&gt;" .. gather_string[1] .. "&lt;dark_goldenrod&gt;" .. table.concat(loot_string) .. "&lt;a_darkgrey&gt;" .. gather_string[2])</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>^You retrieve (.+) from .+\.$</string>
+					<string>^You salvage (.+) from the lifeless remains\.$</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Balances</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Balance Recovery</name>
+					<script>erase()
+cecho("&lt;" .. darkColor("p_bal") .. "&gt;\-\&lt; &lt;p_bal&gt;Balance &lt;a_darkgrey&gt;recovered! &lt;darker&gt;\&gt;\-")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>You have recovered your balance.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Balance Use</name>
+					<script>local t = matches[2]
+local c = "p_bal"
+
+erase()
+cecho("&lt;%s&gt;Balance &lt;a_darkgrey&gt;\| &lt;a_white&gt;%s &lt;a_darkgrey&gt;seconds." % {c, t})</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^Balance used\: (.+)s\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Damage Dealt</name>
+				<script>local elementColor = {
+	["impact"] = "dark_salmon",
+	["em"] = "turquoise",
+	["thermal"] = "orange_red",
+	["cellular"] = "chartreuse",
+	["mental"] = "medium_purple",
+	["draining"] = "cornflower_blue",
+	["electric"] = "gold",
+}
+
+local dmgString, damage, element, ec = matches[2], 0, "", "deep_pink"
+
+damage = dmgString:match("^(%d+) %w+$")
+element = dmgString:match("^%d+ (%w+)$")
+
+if element ~= nil then
+	if elementColor[element] then
+		ec = elementColor[element]
+	end
+	element = " " .. element
+end
+
+erase()
+cecho("&lt;a_darkgrey&gt;You deal &lt;grey&gt;%s&lt;%s&gt;%s &lt;a_darkgrey&gt;damage." % {pNum(damage), ec, element})</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>^Damage Dealt\: (.+)$</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Enemy Afflictions</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Dazed</name>
+					<script>su.enemy.dazed = true</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^You overdrive your suit's movement circuits, delivering a vicious backhanded blow to .+'s head\.$</string>
+						<string>^The blade strikes .+ particularly hard\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>INR Absorption</name>
+				<script>displayXPUpdate()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Your mindsim scans an Internal Neural Replicator, and is able to glean some experience from the stolen imprint.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Game Targetting</name>
+				<script>if su.enemy.invalid_target == true then
+	raiseEvent("su.target", matches[2], "invalid")
+else
+	raiseEvent("su.target", matches[2], matches[3])
+end
+
+erase()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>^Your target is now\: (.+) \(a (player|mob)\)$</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Combat Flag [OFF]</name>
+				<script>raiseEvent("su.clear_target")</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>You are no longer in the throes of battle.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Combat Flag [ON]</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>The crew refuses to admit you, as you are currently fighting.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Game Target Clear</name>
+				<script>erase()
+raiseEvent("su.clear_target")</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Cleared your target.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+		</TriggerGroup>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Communication</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Channels</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Channel Message Replacer</name>
+					<script>local chan, name, says, msg = matches[2], matches[3], matches[4], matches[5]
+
+selectString(chan, 1)
+color_table.temp[1], color_table.temp[2], color_table.temp[3] = getFgColor()
+deselect()
+
+erase()
+cecho("\n  &lt;a_darkgrey&gt;%s &lt;a_darkcyan&gt;// &lt;%s&gt;%s %s, \"&lt;temp&gt;%s&lt;darker&gt;\"" % {chan, darkColor("temp"), name, says, msg})
+cecho("chat", "&lt;a_darkgrey&gt;%s &lt;a_darkcyan&gt;// &lt;%s&gt;%s %s, \"&lt;temp&gt;%s&lt;darker&gt;\"\n" % {chan, darkColor("temp"), name, says, msg})</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^\((.+)\)\: (.+) (say|says), "(.+)"$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Crew Targetting</name>
+					<script>su.target = matches[2]</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^\(Crew\)\: .+ says, "Target\: (.+)\."$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Personal</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Tells</name>
+					<script>selectString(line, 1)
+copy()
+appendBuffer("chat")
+deselect()</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^.+ tells? .+, \".+\"$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>News</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+			</TriggerGroup>
+		</TriggerGroup>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Classes</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Scoundrel</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Cooldown - Rapidfire</name>
+					<script>cooldown("rapidfire", false)</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^Placing your hand on the hammer .+, you quickly fire off two shots at .+ in rapid succession\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Recovery - Rapidfire</name>
+					<script>recovery("rapidfire")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>You are again ready to dualshoot.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Cooldown - Improvised Cover</name>
+					<script>cooldown("improvised cover", false)</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^You search the location thoroughly, and manage to find .+!$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Recovery - Improvised Cover</name>
+					<script>recovery("improvised cover")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>You can again create an improvised cover.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>BEAST</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Cooldown - Support</name>
+					<script>cooldown("support")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>You activate your emergency life support system, but it is ineffective as you are already healthy.</string>
+						<string>You activate your suit's emergency life support system, and instant feeling of well-being washes over you.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Recovery - Support</name>
+					<script>recovery("support")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Your HUD indicates that you may use your life support system once again.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Cooldown - Netlaunch</name>
+					<script>cooldown("netlaunch", false)
+su.enemy.danger = false</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^You\: MWP Netlaunch \-\&gt; .+\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Recovery - Netlaunch</name>
+					<script>recovery("netlaunch")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>You can launch a net again.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Radar</name>
+					<script></script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList />
+					<regexCodePropertyList />
+					<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+						<name>Radar Header</name>
+						<script>erase()
+moduleHeader("BEAST", "Radar")
+
+radar_signals = {}
+radar_bots = {}
+
+enableTrigger("Radar Footer")
+enableTrigger("Radar Line")</script>
+						<triggerType>0</triggerType>
+						<conditonLineDelta>0</conditonLineDelta>
+						<mStayOpen>0</mStayOpen>
+						<mCommand></mCommand>
+						<packageName></packageName>
+						<mFgColor>#ff0000</mFgColor>
+						<mBgColor>#ffff00</mBgColor>
+						<mSoundFile></mSoundFile>
+						<colorTriggerFgColor>#000000</colorTriggerFgColor>
+						<colorTriggerBgColor>#000000</colorTriggerBgColor>
+						<regexCodeList>
+							<string>You detect the following entities nearby:</string>
+						</regexCodeList>
+						<regexCodePropertyList>
+							<integer>3</integer>
+						</regexCodePropertyList>
+					</Trigger>
+					<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+						<name>Radar Footer</name>
+						<script>disableTrigger("Radar Line")
+disableTrigger("Radar Footer")
+
+erase()
+for name, loc in pairs(radar_signals) do
+	cecho("\n  &lt;a_cyan&gt;%s &lt;a_darkcyan&gt;| &lt;a_darkgrey&gt;%s" % {name, loc})
+end
+
+moduleFooter()</script>
+						<triggerType>0</triggerType>
+						<conditonLineDelta>0</conditonLineDelta>
+						<mStayOpen>0</mStayOpen>
+						<mCommand></mCommand>
+						<packageName></packageName>
+						<mFgColor>#ff0000</mFgColor>
+						<mBgColor>#ffff00</mBgColor>
+						<mSoundFile></mSoundFile>
+						<colorTriggerFgColor>#000000</colorTriggerFgColor>
+						<colorTriggerBgColor>#000000</colorTriggerBgColor>
+						<regexCodeList>
+							<string>^Total\: \d+$</string>
+						</regexCodeList>
+						<regexCodePropertyList>
+							<integer>1</integer>
+						</regexCodePropertyList>
+					</Trigger>
+					<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+						<name>Radar Line</name>
+						<script>local what, where = matches[2], matches[3]
+
+local bots = {
+	"a crane-armed carrybot",
+	"an aerodynamic drone",
+	"a deployed turret with a mounted laser barrel",
+	"a deployed turret with a mounted forcewave barrel",
+	"a deployed turret with a mounted flamethrower barrel",
+	"a knife-mawed burrowbot",
+	"a small but heavy minitank",
+}
+
+if table.contains(bots, what) then
+	radar_bots[what] = where
+else
+	radar_signals[what] = where
+end
+
+erase()</script>
+						<triggerType>0</triggerType>
+						<conditonLineDelta>0</conditonLineDelta>
+						<mStayOpen>0</mStayOpen>
+						<mCommand></mCommand>
+						<packageName></packageName>
+						<mFgColor>#ff0000</mFgColor>
+						<mBgColor>#ffff00</mBgColor>
+						<mSoundFile></mSoundFile>
+						<colorTriggerFgColor>#000000</colorTriggerFgColor>
+						<colorTriggerBgColor>#000000</colorTriggerBgColor>
+						<regexCodeList>
+							<string>^- (.+) at (.+)$</string>
+						</regexCodeList>
+						<regexCodePropertyList>
+							<integer>1</integer>
+						</regexCodePropertyList>
+					</Trigger>
+				</TriggerGroup>
+			</TriggerGroup>
+		</TriggerGroup>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Map</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Capturing</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Map Capture Header</name>
+					<script>clearWindow("map")
+sendToWindow("map", false)
+enableTrigger("Map Capture Line")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^\-\-\- Area \d+\: .+ [\-]+ v\d+ \-\-\-$</string>
+						<string>^\-\-\- Area \d+\: .+\s+v\d+ \-\-\-$</string>
+						<string>^\-\-\-[\-]+ v\d+ [\-]+\-\-\-$</string>
+						<string>---------------------------------------------</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Map Capture Footer</name>
+					<script>sendToWindow("map", false)
+disableTrigger("Map Capture Line")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^\-\-\- .+ [\-]+ [\d\-]+\:[\d\-]+\:[\d\-]+ \-\-\-$</string>
+						<string>^\-\-\-[\-]+ [\d\-]+\:[\d\-]+\:[\d\-]+ [\-]+\-\-\-$</string>
+						<string>^\-\-\- (.+)\s+[\d\-]+\:[\d\-]+\:[\d\-]+ \-\-\-$</string>
+						<string>----------------------------------- ?:?:? ---</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Map Capture Line</name>
+					<script>sendToWindow("map", false)</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(.*)$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Starmap Capturing</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Starmap Capture Header</name>
+					<script>-- su.starmap.system, su.starmap.x, su.starmap.y = matches[2], tonumber(matches[3]), tonumber(matches[4])
+clearWindow("map")
+sendToWindow("map", false)
+enableTrigger("Starmap Capture Footer")
+enableTrigger("Starmap Capture Line")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^Location\: (.+) \((\d+), (\d+)\)$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Starmap Capture Footer</name>
+					<script>-- sendToWindow("map", false)
+deleteLine()
+disableTrigger("Starmap Capture Line")
+disableTrigger("Starmap Capture Footer")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^--------------------------------[\-]+$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Starmap Capture Line</name>
+					<script>sendToWindow("map", false)</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>41</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(.*)$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Hacking Map Capturing</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Hacking Map Capture Header</name>
+					<script>if inHack() ~= true then
+	return
+end
+
+clearWindow("map")
+sendToWindow("map", false)
+enableTrigger("Hacking Map Capture Footer")
+enableTrigger("Hacking Map Capture Line")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>This room has not been mapped.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="yes" isColorTriggerFg="yes" isColorTriggerBg="yes">
+					<name>Hacking Map Capture Footer</name>
+					<script>deleteLine()
+disableTrigger("Hacking Map Capture Line")
+disableTrigger("Hacking Map Capture Footer")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#ffff00</colorTriggerFgColor>
+					<colorTriggerBgColor>#800000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>FG7BG4</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>6</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Hacking Map Capture Line</name>
+					<script>sendToWindow("map", false)</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^\+(.*)\+$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+		</TriggerGroup>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Misc.</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Generic Erase</name>
+				<script>erase()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>[Mindsim]: Your gun is empty.</string>
+					<string>[Mindsim]: Your gun is reloaded.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Login</name>
+				<script>raiseEvent("su.login")</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Password correct. Welcome to Starmourn.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+		</TriggerGroup>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Hacking</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>ICE Header</name>
+				<script>erase()
+cecho("&lt;a_white,a_darkred&gt;  ICE:  ")</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>ICE/</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Routes Header</name>
+				<script>erase()
+cecho("&lt;a_white,a_darkblue&gt;  ROUTES:  ")</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Routes/</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Devices Header</name>
+				<script>erase()
+cecho("&lt;a_white,a_darkgreen&gt;  DEVICES:  ")</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Devices/</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>3</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Cosmetic Replacements</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Generic Functions</name>
+					<script>if not inHack() then return end
+
+local func, arg = matches[2], matches[3]
+
+func = "&lt;%s&gt;%s" % {"h_function", func}
+if arg:match("^[0-9%.%-]+$") then
+	arg = "&lt;%s&gt;%s" % {"h_numeric", arg}
+elseif arg ~= "" and arg ~= nil then
+	arg = "&lt;%s&gt;%s" % {"h_argument", arg}
+end
+
+rewrite("%s&lt;h_char&gt;(%s&lt;h_char&gt;);" % {func, arg})</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+)\((.*)\)$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Functions With Methods</name>
+					<script>if not inHack() then return end
+
+local func, meth, arg = matches[2], matches[3], matches[4]
+
+func = "&lt;%s&gt;%s" % {"h_function", func}
+meth = "&lt;%s&gt;%s" % {"h_method", meth}
+if arg:match("^[0-9%.%-]+$") then -- Numeric.
+	arg = "&lt;%s&gt;%s" % {"h_numeric", arg}
+elseif arg:match("^.+, .+$") then
+	local arg1 = arg:match("^(.+), .+$")
+	local arg2 = arg:match("^.+, (.+)$")
+	
+	arg = "&lt;%s&gt;%s&lt;h_char&gt;, &lt;%s&gt;%s" % {"h_argument", arg1, "h_numeric", arg2}
+elseif arg ~= "" and arg ~= nil then -- Anything else.
+	arg = "&lt;%s&gt;%s" % {"h_argument", arg}
+end
+
+rewrite("%s&lt;h_char&gt;.%s&lt;h_char&gt;(%s&lt;h_char&gt;);" % {func, meth, arg})</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+)\.(\w+)\((.+)\)$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+		</TriggerGroup>
+	</TriggerPackage>
+	<TimerPackage>
+		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<name>Pulse</name>
+			<script>raiseEvent("pulse")</script>
+			<command></command>
+			<packageName></packageName>
+			<time>00:00:00.100</time>
+		</Timer>
+		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<name>Anti-AFK</name>
+			<script>sendGMCP("Core.KeepAlive")</script>
+			<command></command>
+			<packageName></packageName>
+			<time>00:01:00.000</time>
+		</Timer>
+	</TimerPackage>
+	<AliasPackage>
+		<Alias isActive="yes" isFolder="no">
+			<name>[!] Feed Triggers</name>
+			<script>local s = matches[2]
+
+s = string.gsub(s, "%$", "\n")
+feedTriggers("\n" .. s .. "\n")
+echo("\n")</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^\/parse (.+)</regex>
+		</Alias>
+		<Alias isActive="yes" isFolder="no">
+			<name>[!] Command-line Lua Execution</name>
+			<script>local f, e = loadstring("return " .. matches[2])
+if not f then
+	f, e = assert(loadstring(matches[2]))
+end
+
+local r = f()
+if r ~= nil then
+	display(r)
+end</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^/run (.+)$</regex>
+		</Alias>
+		<Alias isActive="yes" isFolder="no">
+			<name>[!] Delete Old Profiles</name>
+			<script>deleteOldProfiles(matches[3], matches[2]=="maps")
+
+--Syntax examples: "delete old profiles"  -&gt; deletes profiles older than 31 days
+--					"delete old maps 10"	-&gt; deletes maps older than 10 days</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^delete old (profiles|maps)(?: (\d+))?$</regex>
+		</Alias>
+		<Alias isActive="yes" isFolder="no">
+			<name>[!] Display Value</name>
+			<script>assert(loadstring("display(" .. matches[2] .. ")"))()</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^@(.+)$</regex>
+		</Alias>
+		<Alias isActive="yes" isFolder="no">
+			<name>Color Table Lookup</name>
+			<script>local count = 0
+
+if matches[3] then
+	for k, v in pairs(color_table) do
+		if k:find(matches[3]) then
+			setFgColor(getRGB(k))
+
+			if count == 3 then
+				echo(k .. "\n")
+				count = 0
+			else
+				echo(k .. string.space(25 - string.len(k)))
+				count = count + 1
+			end
+
+			resetFormat()
+		end
+	end
+else
+	for k,v in pairs(color_table) do
+		setFgColor(getRGB(k))
+
+		if count == 3 then
+			echo(k .. "\n")
+			count = 0
+		else
+			echo(k .. string.space(25 - string.len(k)))
+			count = count + 1
+		end
+
+		resetFormat()
+	end
+end
+
+send("\n")</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^colors(|\s(.+))$</regex>
+		</Alias>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>Communication</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+			<Alias isActive="yes" isFolder="no">
+				<name>Emoting</name>
+				<script>local nospace_chars = {"'", ",", ":"}
+
+local text = matches[2]
+local pre, suf = "", ""
+local output = ""
+
+if text:find("%^") ~= nil then
+	local text_temp = text:split("%^")
+	pre, suf = text_temp[1]:trim(), text_temp[2]:trim()
+
+	if pre ~= "" and pre ~= nil then
+		pre = "(" .. pre .. ")"
+	end
+
+	if suf ~= "" and suf ~= nil then
+		if not table.contains(nospace_chars, suf:sub(1, 1)) then
+			suf = " " .. suf
+		end
+	end
+
+	output = "%s%s" % {pre, suf}
+else
+	output = text
+end
+
+send("em %s" % output, false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^:(.+)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>OOC Tell</name>
+				<script>local tar, msg = matches[2], matches[3]
+
+send("tell %s // %s" % {tar, msg}, false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^ooc (\w+) (.+)$</regex>
+			</Alias>
+		</AliasGroup>
+		<Alias isActive="yes" isFolder="no">
+			<name>Targetting</name>
+			<script>if inShip() then
+	send("ship cone", false)
+	send("ship target " .. matches[2], false)
+	return
+end
+
+su.target = matches[2]
+
+notify("Target set to &lt;a_green&gt;%s&lt;a_grey&gt;." % su.target)</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^t (.+)$</regex>
+		</Alias>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>Input Hooks</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+			<Alias isActive="yes" isFolder="no">
+				<name>Inventory (GMCP Hook)</name>
+				<script>RefreshInventory()
+send(matches[1], false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^(?:i|ii|inv|inventory)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Who Lists (GMCP Hook)</name>
+				<script>RefreshPlayers()
+send(matches[1], false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^(?:qw|bw|who|qwho|bwho)$</regex>
+			</Alias>
+		</AliasGroup>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>Module Toggling</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+			<Alias isActive="yes" isFolder="no">
+				<name>Auto-Hunting</name>
+				<script>local confirmation
+if su.hunting.autohunting ~= true then
+	su.hunting.autohunting = true
+	confirmation = "&lt;a_green&gt;activated"
+else
+	su.hunting.autohunting = false
+	su.hunting.currently_attacking = false
+	confirmation = "&lt;a_red&gt;deactivated"
+end
+
+notify("Hunting", "Auto-hunting %s&lt;a_grey&gt;." % confirmation)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^hunt$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Superhunting</name>
+				<script>local confirmation
+if su.hunting.superhunting ~= true then
+	su.hunting.superhunting = true
+	confirmation = "&lt;a_green&gt;activated"
+else
+	su.hunting.superhunting = false
+	su.hunting.currently_attacking = false
+	confirmation = "&lt;a_red&gt;deactivated"
+end
+
+notify("Hunting", "Superhunting %s&lt;a_grey&gt;." % confirmation)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^sh(?:unt)?$</regex>
+			</Alias>
+		</AliasGroup>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>Convenience, QOL</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+			<Alias isActive="yes" isFolder="no">
+				<name>CT -&gt; FT</name>
+				<script>send("ft" .. matches[2], false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^ct(.*)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Credit/Ironcoin Report</name>
+				<script>local x = matches[2]
+
+if x == "c" then
+	send("credit report", false)
+else
+	send("ironcoin report", false)
+end</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^(c|i)r$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>FTELLS</name>
+				<script>send("history ft", false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^(?:c|f)tells$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Config Fix</name>
+				<script>local cmds = {
+	"config pagelength 32",
+	"config timeout 0",
+	"config wrapwidth 0",
+	"config condenseroom off",
+	"config displaymessages on",
+	"config mapshow on",
+	"map radius 5",
+	"config deathalert off",
+	"config nametells on",
+	"config showbalance on",
+	"config showdamage on",
+	"config color heading1 8",
+	"config color borders 4",
+	"config color emotes 6",
+	"config color yells 5",
+	"config color newbie 15",
+	"config color faction 117",
+	"config color dynasty 137",
+	"config color crew 1",
+	"config color brief_desc 11 1",
+	"config color items 2",
+	"config color exits 12",
+}
+
+send("config separator |", false)
+sendAll(unpack(cmds))</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^config fix$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Wetwiring Regenerate</name>
+				<script>send("wetwiring regenerate", false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^rr$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Examine</name>
+				<script>send("examine " .. matches[2], false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^ex (.+)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Station Transfer List</name>
+				<script>send("station transfer list", false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^stl$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Fullsense</name>
+				<script>if su.char.class == "B.E.A.S.T." then
+	send("suit radar", false)
+end</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^fs$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Hack Terminal</name>
+				<script>send("hack terminal", false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^hack$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Takeoff List</name>
+				<script>send("takeoff list", false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^tl$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Enter Lift</name>
+				<script>send("enter lift", false)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^el$</regex>
+			</Alias>
+		</AliasGroup>
+		<Alias isActive="yes" isFolder="no">
+			<name>Test Alias</name>
+			<script>display(matches)</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^stuff(?:| (.*))$</regex>
+		</Alias>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>Character-Specific</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+			<Alias isActive="yes" isFolder="no">
+				<name>Quell - Armor On/Off</name>
+				<script>local descs = {
+	on = {
+		desc = "An immense column of armor in dead winter colors of steel and matte-black, segmented and highly articulated. Though it moulds to the sleek contours of its owner, the broad array of racks and siloes along the shoulders and back make it top-heavy, and bristling with weaponry. Once, the cybernetic suit may have sported gorgeous gold traceries along its many seams, but these are tarnished and coppery. The helmet is moulded into the likeness of an elongated and alien skull, a formglass viewport buried deep within each eye socket. The digits of the suit's tremendous hands each terminate in a gilt-edged claw, just barely concealing tiny ports, around which the air shimmers with heat.",
+		pose = "Palpable heat vents from ^'s armor.",
+		gait = "stomps",
+	},
+	off = {
+		desc = "A Jin firmly into his middle age, tall of stature, with muscle and fat in healthy supply. His dusty lilac flesh is resplendent with tiny pockmarks and scars, and shines faintly as if moist. Brutishly he is built, top-heavy with thick shoulders and broad arms, a stout chest and equally stout gut. A pair of slate-colored horns curl back over his skull, their tips lifting at the end. His hair is a salt-and-pepper grey, worn long and carelessly, wreathing his back and shoulders. Thin and inset, his dark eyes focus often on things unseen.",
+		pose = "^ presides here.",
+		gait = "marches",
+	}
+}
+
+local state = matches[2]
+local desc, pose, gait
+
+if state == "on" then
+	desc = descs.on.desc
+	pose = descs.on.pose
+	gait = descs.on.gait
+else
+	desc = descs.off.desc
+	pose = descs.off.pose
+	gait = descs.off.gait
+end
+
+sendStack("describe self " .. desc, "customize set defaultpose " .. pose, "customize set gait " .. gait)</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^armor (on|off)$</regex>
+			</Alias>
+		</AliasGroup>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>Ship Combat</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+		</AliasGroup>
+		<Alias isActive="yes" isFolder="no">
+			<name>Batch Actions</name>
+			<script>if string.find(matches[3], "#") == nil then
+	notify("You must insert a &lt;yellow&gt;# &lt;grey&gt;token if you want to apply your action to the batched items.")
+else
+	local items = string.split(matches[2], ",")
+	local action = string.split(matches[3], "|")
+	for i,v in ipairs(action) do
+		action[v] = v:trim()
+	end
+	for i,item in ipairs(items) do
+		for i,act in ipairs(action) do
+			local action2 = act:gsub("#", item)
+			send(action2, false)
+		end
+	end
+end</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^b\[(.+)\](.+)$</regex>
+		</Alias>
+		<Alias isActive="yes" isFolder="no">
+			<name>[!] Open Profile Directory</name>
+			<script>os.execute([[start "" "]] .. getMudletHomeDir() .. [[\"]])</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>^home\s?dir(?:ectory)?$</regex>
+		</Alias>
+	</AliasPackage>
+	<ActionPackage />
+	<ScriptPackage>
+		<Script isActive="yes" isFolder="no">
+			<name>[!] Initialize</name>
+			<packageName></packageName>
+			<script>-- Mudlet configuration.
+mudlet = mudlet or {}
+mudlet.mapper_script = true
+
+loadVars()
+setConsoleBufferSize("main", 1000000, 1000)
+
+setBorderBottom(22)
+
+-- Failsafe GMCP module loading in case the login event is bypassed (from reconnection, etc.).
+sendGMCP('Core.Supports.Add ["IRE.Rift 1"]')
+sendGMCP('Core.Supports.Add ["Comm.Channel 1"]')
+sendGMCP('Core.Supports.Add ["IRE.Time 1"]')
+sendGMCP('Core.Supports.Add ["IRE.Target 1"]')</script>
+			<eventHandlerList />
+		</Script>
+		<Script isActive="yes" isFolder="no">
+			<name>Load Tables</name>
+			<packageName></packageName>
+			<script>function InitializeTables()
+  su = su or {}
+  
+  su.char = su.char or {
+  	bullets = {cur = 0, max = 0},
+		plasma = {cur = 0, max = 0},
+  	hp = {cur = 0, max = 0, per = 0},
+  	xp = {cur = 0, max = 0, per = 0, last = 0},
+  	muscular = 0, wetwiring = 0, mind = 0, sensory = 0, internal = 0,
+  	muscular_full = 0, wetwiring_full = 0, mind_full = 0, sensory_full = 0, internal_full = 0,
+  	class = "Unknown Class",
+  	marks = 0,
+  	name = "Unknown Name",
+  	fullname = "Unknown Fullname",
+  }
+  
+  su.room = su.room or {
+  	num = 0,
+  	name = "Unknown Name",
+  	area = "Unknown Area",
+		area_id = 0,
+  	desc = "",
+  	env = "????",
+  	coords = {x = "?", y = "?", z = "?"},
+  	exits = {},
+  	players = {},
+		contents = {},
+		mobs = {},
+		terminal = false
+  }
+  
+  su.combatmessage = su.combatmessage or {
+  	ability = "",
+  	target = "",
+  	message = "",
+  	caster = "",
+  }
+
+	su.hunting = su.hunting or {
+		autohunting = true,
+		currently_attacking = false,
+		hunt_queue = {},
+		superhunting = true,
+	}
+
+	su.inventory = su.inventory or {
+		["contents"] = {},
+		["worn"] = {},
+		["containers"] = {},
+		["wearable"] = {},
+		["corpses"] = {},
+		["mobs"] = {},
+	}
+
+	su.starmap = su.starmap or {
+		system = "????",
+		x = 0,
+		y = 0,
+	}
+  
+  -- Room flags
+  for _, flag in ipairs({"indoors"}) do
+  	su.room[flag] = su.room[flag] or false
+  end
+
+	-- Enemy Afflictions and other stats.
+	su.enemy = su.enemy or {
+		danger = false,
+		hp = 0,
+		name = "????",
+		id = 0,
+	}
+
+	-- Generic tables
+  for _, t in ipairs({
+		"throttle", "afflictions", "cooldowns", "windows", "classes", "readout", "env",
+		"comm", "time"
+	}) do
+  	su[t] = su[t] or {}
+  end
+
+	-- Low-level variables
+	su.fullname = "GEHENNA"
+  su.shortname = "GH"
+  su.wrap_width = 100
+	su.winX, su.winY = getMainWindowSize()
+	
+	su.bal = true
+	su.ww = true
+	su.target = "none"
+	
+	su.throttle_time = su.throttle_time or 0.2
+end
+
+function ResetTables()
+	su = nil
+	InitializeTables()
+end
+
+InitializeTables()</script>
+			<eventHandlerList />
+		</Script>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Mudlet Default Scripts</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Delete Old Profiles</name>
+				<packageName>deleteOldProfiles</packageName>
+				<script></script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>deleteOldProfiles script</name>
+					<packageName></packageName>
+					<script>function deleteOldProfiles(keepdays_arg, delete_maps)
+
+--[[
+	Deletes old profiles/maps in the "current"/"map" folders of the Mudlet home directory.
+	The following files are NOT deleted:
+	- Files newer than the amount of days specified as an argument to deleteOldProfiles(), or 31 days if not specified.	
+	- One file for every month before that. Specifically: The first available file of every month prior to this.
+	Setting the second argument to true will delete maps instead of profiles. (e.g. deleteOldProfiles(10, true))
+--]]
+
+	local keepdays = tonumber(keepdays_arg) or 31
+	local profile_table = {}
+	local used_last_mod_months = {}
+	local slash = (string.char(getMudletHomeDir():byte()) == "/") and "/" or "\\"
+	local dirpath = getMudletHomeDir()..slash..(delete_maps and "map" or "current")
+	local delnum = 0
+
+	-- Traverse the profiles folder and create a table of files:
+	for filename in lfs.dir(dirpath) do
+		if filename~="." and filename~=".." then
+			profile_table[#profile_table+1] = {name = filename, last_mod = lfs.attributes(dirpath..slash..filename, "modification")}
+		end
+	end
+
+	-- Sort the table according to last modification date from old to new:
+	table.sort(profile_table, function (a,b) return a.last_mod &lt; b.last_mod end)
+
+	echo(string.format("\nDeleting old %s. Files newer than %d days and one profile for every month before that will be kept.", delete_maps and "maps" or "profiles", keepdays))
+	for i,v in ipairs(profile_table) do
+		local days = math.floor(os.difftime(os.time(), v.last_mod)/86400)
+		local last_mod_month = os.date("%Y/%m", v.last_mod)
+		if days &gt; keepdays then
+			-- For profiles older than X days, check if we already kept a table for this month:
+			if not table.contains(used_last_mod_months, last_mod_month) then
+				-- If not, do nothing and mark this month as "kept".
+				used_last_mod_months[#used_last_mod_months+1] = last_mod_month
+			else
+				-- Otherwise remove the file:
+				local success, errorstring = os.remove(dirpath..slash..v.name)
+				if success then
+					delnum = delnum + 1
+				else
+					cecho("\n&lt;red&gt;ERROR: "..errorstring)
+				end
+			end
+		end
+	end
+	echo(string.format("\nDeletion complete. %d/%d files were removed successfully.", delnum, #profile_table))
+end
+</script>
+					<eventHandlerList />
+				</Script>
+			</ScriptGroup>
+		</ScriptGroup>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Events</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>GMCP</name>
+				<packageName></packageName>
+				<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>handleCharChanges</name>
+					<packageName></packageName>
+					<script>local function VitalsHandler()
+	for _, sys in ipairs({"internal", "muscular", "wetwiring", "mind", "sensory"}) do
+		su.char[sys] = tonumber(gmcp.Char.Vitals[sys])
+		su.char[sys .. "_full"] = gmcp.Char.Vitals[sys]
+	end
+
+	su.char.xp.cur = tonumber(gmcp.Char.Vitals.xp)
+	su.char.xp.per = tonumber(gmcp.Char.Vitals.nl)
+	if su.char.xp.cur ~= su.char.xp.last then
+		su.char.xp.update = math.abs(su.char.xp.cur - su.char.xp.last)
+		if su.char.xp.cur &lt; su.char.xp.last then
+			su.char.xp.update = 0 - su.char.xp.update
+		end
+	end
+	su.char.xp.last = su.char.xp.cur
+
+	su.char.bullets.cur = tonumber(gmcp.Char.Vitals.bl)
+	su.char.bullets.max = tonumber(gmcp.Char.Vitals.maxbl)
+	su.char.plasma.cur = tonumber(gmcp.Char.Vitals.pl)
+	su.char.plasma.max = tonumber(gmcp.Char.Vitals.maxpl)
+
+	su.char.hp.cur = tonumber(gmcp.Char.Vitals.hp)
+	su.char.hp.max = tonumber(gmcp.Char.Vitals.maxhp)
+	su.char.hp.per = math.round((su.char.hp.cur * 100) / su.char.hp.max, 2)
+
+	su.char.em = tonumber(gmcp.Char.Vitals.em)
+
+	su.bal = gmcp.Char.Vitals.bal == "1"
+	su.ww  = gmcp.Char.Vitals.ww  == "1"
+end
+
+local function StatusHandler()
+	su.char.class = gmcp.Char.Status.class
+	su.char.marks = tonumber(gmcp.Char.Status.marks)
+end
+
+local function NameHandler()
+	su.char.name = gmcp.Char.Name.name
+	su.char.fullname = gmcp.Char.Name.fullname
+end
+
+function handleCharChanges(e, ...)
+	if e == "gmcp.Char.Vitals" then
+		VitalsHandler(...)
+	elseif e == "gmcp.Char.Status" then
+		StatusHandler(...)
+	elseif e == "gmcp.Char.Name" then
+		NameHandler(...)
+	end
+end</script>
+					<eventHandlerList>
+						<string>gmcp.Char.Vitals</string>
+						<string>gmcp.Char.Status</string>
+						<string>gmcp.Char.Name</string>
+					</eventHandlerList>
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>handleRoomChanges</name>
+					<packageName></packageName>
+					<script>local function NewRoomHandler()
+	raiseEvent("su.clear_target")
+end
+
+local function NewAreaHandler()
+end
+
+local function PlayersHandler()
+	su.room.players = {}
+	for entry, _ in ipairs(gmcp.Room.Players) do
+		local name = gmcp.Room.Players[entry].name
+		if name ~= su.char.name then
+			su.room.players[name] = true
+		end
+	end
+	
+	updateWindow("readout")
+end
+
+local function AddPlayerHandler()
+	su.room.players[gmcp.Room.AddPlayer.name] = true
+	updateWindow("readout")
+end
+
+local function RemovePlayerHandler()
+	su.room.players[gmcp.Room.AddPlayer.name] = nil
+	updateWindow("readout")
+end
+
+local function InfoHandler()
+	-- Physical/appearance data.
+	su.room.num = tonumber(gmcp.Room.Info.num)
+	su.room.name = gmcp.Room.Info.name
+	su.room.env = gmcp.Room.Info.environment
+	su.room.area = gmcp.Room.Info.area
+	su.room.desc = gmcp.Room.Info.desc
+
+	-- Formatted coordinates.
+	su.room.coords = {}
+	local c = gmcp.Room.Info.coords:split(",")
+	if c and c ~= nil and c ~= "" then
+		su.room.area_id = tonumber(c[1])
+  	su.room.coords.x = tonumber(c[2])
+  	su.room.coords.y = tonumber(c[3])
+  	su.room.coords.z = tonumber(c[4])
+	else
+		su.room.coords = {x = "?", y = "?", z = "?"}
+	end
+
+	-- Formatted exits.
+	su.room.exits = {}
+	for dir, num in pairs(gmcp.Room.Info.exits) do
+		su.room.exits[dir] = tonumber(num)
+	end
+
+	-- Room flags.
+	for _, flag in ipairs({"indoors"}) do
+		su.room[flag] = table.contains(gmcp.Room.Info.details, flag)
+	end
+
+	if su.room.num ~= su.room.last_num then
+		NewRoomHandler()
+	end
+	su.room.last_num = su.room.num
+	
+	if su.room.area ~= su.room.last_area then
+		NewAreaHandler()
+	end
+	su.room.last_area = su.room.area
+
+	updateWindow("readout")
+end
+
+function handleRoomChanges(e, ...)
+	if e == "gmcp.Room.Players" then
+		PlayersHandler(...)
+	elseif e == "gmcp.Room.AddPlayer" then
+		AddPlayerHandler(...)
+	elseif e == "gmcp.Room.Info" then
+		InfoHandler(...)
+	elseif e == "gmcp.Room.RemovePlayer" then
+		RemovePlayerHandler(...)
+	end
+end</script>
+					<eventHandlerList>
+						<string>gmcp.Room.Players</string>
+						<string>gmcp.Room.AddPlayer</string>
+						<string>gmcp.Room.Info</string>
+						<string>gmcp.Room.RemovePlayer</string>
+					</eventHandlerList>
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>handleIREChanges</name>
+					<packageName></packageName>
+					<script>local function CombatMessageHandler()
+	-- This implementationj is due to the unusual way CombatMessage info is stored.
+	su.combatmessage = {
+  	ability = "",
+  	target = "",
+  	message = "",
+  	caster = "",
+	}
+
+	for a, _ in pairs(gmcp.IRE.CombatMessage) do
+		su.combatmessage.ability = a
+		su.combatmessage.target = gmcp.IRE.CombatMessage[a].target
+		su.combatmessage.message = gmcp.IRE.CombatMessage[a].message
+		su.combatmessage.caster = gmcp.IRE.CombatMessage[a].caster
+		break
+	end
+end
+
+local function TimeHandler()
+	su.time.day = tonumber(gmcp.IRE.Time.List.day)
+	su.time.month = tonumber(gmcp.IRE.Time.List.month)
+	su.time.time = tonumber(gmcp.IRE.Time.List.time)
+	su.time.year = tonumber(gmcp.IRE.Time.List.year)
+	su.time.hour = tonumber(gmcp.IRE.Time.List.hour)
+end
+
+local function TargetHandler()
+	if gmcp.IRE.Target.Set == "" or gmcp.IRE.Target.Set == nil then
+		su.enemy.invalid_target = true
+	end
+
+	-- The short desc is passed once and then never again, so gotta store it
+	-- the cheaty way.
+	if gmcp.IRE.Target.Info.short_desc then
+		su.enemy.name = gmcp.IRE.Target.Info.short_desc
+	end
+
+	su.enemy.id = gmcp.IRE.Target.Info.id
+	su.enemy.hp = gmcp.IRE.Target.Info.hpperc
+	su.enemy.invalid_target = nil
+	
+	su.enemy.hp = tonumber(su.enemy.hp:match("^(%d+)%%$"))
+end
+
+function handleIREChanges(e, ...)
+	if e == "gmcp.IRE.CombatMessage" then
+		CombatMessageHandler(...)
+	elseif e == "gmcp.IRE.Time" then
+		TimeHandler(...)
+	elseif e == "gmcp.IRE.Target" then
+		TargetHandler(...)
+	end
+end</script>
+					<eventHandlerList>
+						<string>gmcp.IRE.CombatMessage</string>
+						<string>gmcp.IRE.Time</string>
+						<string>gmcp.IRE.Target</string>
+					</eventHandlerList>
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>handleItemsChanges</name>
+					<packageName></packageName>
+					<script>--[[
+	Flags:
+	
+	c = Container
+  w = worn
+  W = wearable
+  l = being wielded
+  f = fluid container that is not empty
+  e = edible
+  t = in room and takeable
+  m = mobile (NPC)
+	d = dead
+	x = a faction guard, or loyal to a player, or loyal to an organization
+]]--
+
+local function ItemsListHandler()
+	su.inventory = {
+		["contents"] = {},
+		["worn"] = {},
+		["containers"] = {},
+		["wearable"] = {},
+		["corpses"] = {},
+		["mobs"] = {},
+	}
+
+	for k,v in pairs(gmcp.Char.Items.List.items) do
+		local id = gmcp.Char.Items.List.items[k].id
+		local name = gmcp.Char.Items.List.items[k].name
+		local attr = gmcp.Char.Items.List.items[k].attrib
+		local wearslot = gmcp.Char.Items.List.items[k].wearslot
+
+		su.inventory.contents[id] = {["name"] = name}
+		if wearslot then su.inventory.contents[id].wearslot = wearslot end
+
+		-- Sort the items into appropriate categories.
+		if attr then
+			su.inventory.contents[id].flags = attr
+			if attr:match("[wW]") then table.insert(su.inventory.wearable, id) end
+			if attr:match("w") then table.insert(su.inventory.worn, id) end
+			if attr:match("c") then table.insert(su.inventory.containers, id) end
+			if attr:match("d") then table.insert(su.inventory.corpses, id) end
+			if attr:match("m") then table.insert(su.inventory.mobs, id) end
+		end
+	end
+end
+
+local function RoomListHandler()
+	su.room.contents = {}
+	su.room.mobs = {}
+
+	for i,v in ipairs(gmcp.Char.Items.List.items) do
+		local id = gmcp.Char.Items.List.items[i].id
+		local name = gmcp.Char.Items.List.items[i].name
+		local attr = gmcp.Char.Items.List.items[i].attrib
+		
+		if name == "an unobtrusive access terminal" then
+			su.room.terminal = true
+		else
+			su.room.terminal = false
+		end
+
+		if not attr then
+			su.room.contents[id] = name
+		elseif attr:match("m") then
+			su.room.mobs[id] = name
+		else
+			su.room.contents[id] = name
+		end
+	end
+	
+	updateWindow("readout")
+	raiseEvent("su.mob_update")
+end
+
+local function ItemsAddHandler()
+end
+
+local function RoomAddHandler()
+	local id = gmcp.Char.Items.Add.item.id
+	local name = gmcp.Char.Items.Add.item.name
+	local attr = gmcp.Char.Items.Add.item.attrib
+
+	if not attr then
+		su.room.contents[id] = name
+	elseif attr and attr:match("m") then
+		su.room.mobs[id] = name
+		raiseEvent("su.mob_update")
+	end
+	
+	updateWindow("readout")
+	raiseEvent("su.mob_update")
+end
+
+local function ItemsRemoveHandler()
+end
+
+local function RoomRemoveHandler()
+	local id = gmcp.Char.Items.Remove.item.id
+	local attr = gmcp.Char.Items.Remove.item.attrib
+
+	if not attr then
+		su.room.contents[id] = nil
+	elseif attr and attr:match("m") then
+		su.room.mobs[id] = nil
+		raiseEvent("su.mob_update")
+	end
+	
+	updateWindow("readout")
+	raiseEvent("su.mob_update")
+end
+
+local function ItemsUpdateHandler()
+	-- TBI.
+end
+
+local function RoomUpdateHandler()
+	-- TBI.
+end
+
+function handleItemsChanges(e, ...)
+	if e == "gmcp.Char.Items.List" then
+		if gmcp.Char.Items.List.location == "inv" then
+			ItemsListHandler(...)
+		elseif gmcp.Char.Items.List.location == "room" then
+			RoomListHandler(...)
+		else
+			error("gmcp.Char.Items.List.location shows a value other than inv or room. Value: " .. gmcp.Char.Items.List.location)
+		end
+
+	elseif e == "gmcp.Char.Items.Add" then
+		if gmcp.Char.Items.Add.location == "inv" then
+			ItemsAddHandler(...)
+		elseif gmcp.Char.Items.Add.location == "room" then
+			RoomAddHandler(...)
+		else
+			error("gmcp.Char.Items.Add.location shows a value other than inv or room. Value: " .. gmcp.Char.Items.Add.location)
+		end
+
+	elseif e == "gmcp.Char.Items.Remove" then
+		if gmcp.Char.Items.Remove.location == "inv" then
+			ItemsRemoveHandler(...)
+		elseif gmcp.Char.Items.Remove.location == "room" then
+			RoomRemoveHandler(...)
+		else
+			error("gmcp.Char.Items.Remove.location shows a value other than inv or room. Value: " .. gmcp.Char.Items.Remove.location)
+		end
+
+	elseif e == "gmcp.Char.Items.Update" then
+		if gmcp.Char.Items.Update.location == "inv" then
+			ItemsUpdateHandler(...)
+		elseif gmcp.Char.Items.Update.location == "room" then
+			RoomUpdateHandler(...)
+		else
+			error("gmcp.Char.Items.Update.location shows a value other than inv or room. Value: " .. gmcp.Char.Items.Update.location)
+		end
+
+	end
+end</script>
+					<eventHandlerList>
+						<string>gmcp.Char.Items.Add</string>
+						<string>gmcp.Char.Items.Remove</string>
+						<string>gmcp.Char.Items.Update</string>
+						<string>gmcp.Char.Items.List</string>
+					</eventHandlerList>
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>handleCommChanges</name>
+					<packageName></packageName>
+					<script>local function ChannelHandler()
+	su.comm.chan = gmcp.Comm.Channel.Text.channel
+	su.comm.source = gmcp.Comm.Channel.Text.talker
+	su.comm.raw = gmcp.Comm.Channel.Text.raw
+	su.comm.text = gmcp.Comm.Channel.Text.text
+	
+	su.comm.text = su.comm.text:stripXTERM()
+end
+
+local function ListHandler()
+end
+
+function handleCommChanges(e, ...)
+	if e == "gmcp.Comm.Channel.Text" then
+		ChannelHandler(...)
+	elseif e == "gmcp.Comm.Channel.List" then
+		ListHandler(...)
+	end
+end</script>
+					<eventHandlerList>
+						<string>gmcp.Comm.Channel.Text</string>
+						<string>gmcp.Comm.Channel.List</string>
+					</eventHandlerList>
+				</Script>
+			</ScriptGroup>
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Mudlet</name>
+				<packageName></packageName>
+				<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>handleWindowResize</name>
+					<packageName></packageName>
+					<script>function handleWindowResize()
+	su.winX, su.winY = getMainWindowSize()
+
+	resizeAllWindows()
+end</script>
+					<eventHandlerList>
+						<string>sysWindowResizeEvent</string>
+					</eventHandlerList>
+				</Script>
+			</ScriptGroup>
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Custom</name>
+				<packageName></packageName>
+				<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>handlePulse</name>
+					<packageName></packageName>
+					<script>local function PulseHandler()
+	-- Battle Module:
+  --  Dual-mode module that handles either automated PVP combat or hunting,
+	--  depending on which modes are activated.
+	Battle()
+end
+
+function handlePulse()
+	PulseHandler()
+end</script>
+					<eventHandlerList>
+						<string>pulse</string>
+					</eventHandlerList>
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>handlePrompt</name>
+					<packageName></packageName>
+					<script>-- Options ---------------------------------------------------------------------
+local bullet_char   = "!" -- Character that populates prompt bullet display.
+local enemy_hp_char = "|" -- Character that populates enemy health display.
+--------------------------------------------------------------------------------
+
+local function colorRamp(cur, max)
+	-- Returns a color on a gradient for stat values.
+	local perc = (cur * 100) / max
+	local color = {0, 0, 0}
+	local r, g, b; b = 0
+
+	if cur &gt;= max then
+		color = {40, 180, 255}
+	else
+		if perc &gt; 50 then g = 255 else
+			g = math.round((255 * perc) / 50)
+		end
+
+		if perc &lt; 50 then r = 255 else
+			perc = 255 - ((((perc - 50) * 2) * 255) / 100)
+			r = math.round(perc)
+		end
+
+		if g &gt; 255 then g = 255 elseif g &lt; 0 then g = 0 end
+		if r &gt; 255 then r = 255 elseif r &lt; 0 then r = 0 end
+
+		color = {r, g, b}
+	end
+
+	return color
+end
+
+local function PromptReports()
+end
+
+local function PromptProcessing()
+end
+
+local function PromptResets()
+end
+
+local function PromptReplace()
+	erase()
+
+	-- Health
+	local hColor = colorRamp(su.char.hp.cur, su.char.hp.max)
+	cecho("&lt;a_darkgrey&gt;H&lt;a_darkcyan&gt;|&lt;dark_slate_grey&gt;%s" % {string.rep("0", 4 - tostring(su.char.hp.cur):len())})
+	setFgColor(hColor[1], hColor[2], hColor[3])
+	echo(su.char.hp.cur)
+	resetFormat()
+
+	-- Bodily systems
+	local sColor = {}
+	for _, sim in ipairs({"wetwiring", "muscular", "sensory", "internal", "mind"}) do
+		sColor[sim] = colorRamp(su.char[sim], 100)
+		local sim_name = sim:sub(1, 2):upper()
+		local sim_padding = 6 - tostring(su.char[sim .. "_full"]):len()
+		cecho(" &lt;a_darkgrey&gt;%s&lt;a_darkmagenta&gt;|&lt;dark_slate_grey&gt;%s" % {sim_name, string.rep("0", sim_padding)})
+		setFgColor(sColor[sim][1], sColor[sim][2], sColor[sim][3])
+		echo(su.char[sim .. "_full"])
+		resetFormat()
+	end
+
+	-- Bullets
+	if su.char.class == "Scoundrel" then
+  	cecho(" &lt;a_darkred&gt;B&lt;a_darkcyan&gt;|&lt;dark_slate_grey&gt;%s&lt;indian_red&gt;%s" % {string.rep("-", su.char.bullets.max - su.char.bullets.cur), string.rep(bullet_char, su.char.bullets.cur)})
+	end
+
+	-- Plasma
+	if su.char.class == "B.E.A.S.T." then
+  	cecho(" &lt;a_darkred&gt;P&lt;a_darkcyan&gt;|&lt;dark_slate_grey&gt;%s&lt;violet_red&gt;%s" % {string.rep("0", 4 - tostring(su.char.plasma.cur):len()), su.char.plasma.cur})
+	end
+
+	-- Experience
+	cecho(" &lt;a_darkgrey&gt;X&lt;a_darkcyan&gt;|&lt;dark_goldenrod&gt;%s%%" % {su.char.xp.per})
+
+	-- Balances
+	cecho(" &lt;a_darkgrey&gt;\(")
+	if onWW() then cecho("&lt;gold&gt;W") else cecho("&lt;dark_slate_grey&gt;-") end
+	if onBAL() then cecho("&lt;gold&gt;B") else cecho("&lt;dark_slate_grey&gt;-") end
+	cecho("&lt;a_darkgrey&gt;\) ")
+end
+
+local function PromptSpecial()
+	sendToWindow("special_prompt", false)
+end
+
+local function PromptTarget()
+	-- We hook this into the regular prompt, since we know the special one won't be used
+	-- for anything else.
+	if target_acquired == true then
+		clearWindow("special_prompt")
+		cecho("special_prompt", "&lt;a_darkgrey&gt;%s&lt;a_red&gt;%s&lt;dark_slate_grey&gt;%s" % {su.enemy.name:jleft(40), string.rep(enemy_hp_char, su.enemy.hp), string.rep(enemy_hp_char, 100 - su.enemy.hp)})
+	end
+end
+
+local function PromptHandler()
+	clearWindow("special_prompt")
+
+	PromptReports()
+	PromptProcessing()
+	PromptResets()
+
+	if su.room.num &gt;= 1 then
+		PromptReplace()
+		PromptTarget()
+	else
+		PromptSpecial()
+	end
+end
+
+function handlePrompt(e, ...)
+	if e == "su.prompt" then
+		PromptHandler(...)
+	end
+end</script>
+					<eventHandlerList>
+						<string>su.prompt</string>
+					</eventHandlerList>
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>handleMobListUpdate</name>
+					<packageName></packageName>
+					<script>local function ProcessHuntingQueue()
+	-- Put our current target on top at all times.
+	if not su.hunting.hunting_target then
+		su.hunting.hunting_target = getPriorityHuntTarget()
+	elseif table.contains(su.hunting.hunt_queue, su.hunting.hunting_target) == false then
+		su.hunting.hunting_target = getPriorityHuntTarget()
+	else
+		for i,v in ipairs(su.hunting.hunt_queue) do
+			if v == su.hunting.hunting_target then
+				table.remove(su.hunting.hunt_queue, i)
+				break
+			end
+		end
+		table.insert(su.hunting.hunt_queue, 1, su.hunting.hunt_target)
+	end
+end
+
+function handleMobListUpdate(e, ...)
+	su.hunting.hunt_queue = {}
+	if getHuntAreaPriority() ~= false then
+		for _, mobname in ipairs(getHuntAreaPriority()) do		-- Get mob priority for area.
+			local regex = false
+			if mobname:sub(1, 1) == "^" then regex = true end
+			for id, name in pairs(su.room.mobs) do
+				if regex and name:match(mobname) ~= nil then
+					table.insert(su.hunting.hunt_queue, id)
+				elseif mobname == name then
+					table.insert(su.hunting.hunt_queue, id)
+				end
+			end
+		end
+
+		ProcessHuntingQueue()
+	end
+end</script>
+					<eventHandlerList>
+						<string>su.mob_update</string>
+					</eventHandlerList>
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>handleLogin</name>
+					<packageName></packageName>
+					<script>local chars = {
+	["Quell"] = {
+		-- "disguise as living human",
+	},
+}
+
+local function CustomCharacterLoginHandler()
+	if not su.char.name or su.char.name == "" or not table.contains(chars, su.char.name) then
+		return
+	end
+
+	sendStack(chars[su.char.name])
+end
+
+local function LoginHandler()
+	sendGMCP('Core.Supports.Add ["IRE.Rift 1"]')
+	sendGMCP('Core.Supports.Add ["Comm.Channel 1"]')
+	sendGMCP('Core.Supports.Add ["IRE.Time 1"]')
+	sendGMCP('Core.Supports.Add ["IRE.Target 1"]')
+
+	CustomCharacterLoginHandler()
+end
+
+function handleLogin(e, ...)
+	if e == "su.login" then
+		LoginHandler(...)
+	end
+end</script>
+					<eventHandlerList>
+						<string>su.login</string>
+					</eventHandlerList>
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>handleCombatEvents</name>
+					<packageName></packageName>
+					<script>local function TargetHandler(name, mob_type)
+	if mob_type == "invalid" then
+		target_acquired = nil
+		return
+	end
+
+	if mob_type == "player" then
+		-- TBD
+	end
+
+	target_acquired = true
+end
+
+local function SlainTargetHandler(name)
+	target_acquired = nil
+  rewrite("  &lt;a_darkgrey&gt;You have slain &lt;a_darkred&gt;%s&lt;a_darkgrey&gt;.\n" % {name})
+  hr("a_darkred")
+  displayXPUpdate()
+  raiseEvent("su.mob_update")
+	clearEnemyAffs()
+end
+
+local function ClearTargetHandler()
+	target_acquired = nil
+	su.enemy.name = ""
+end
+
+function handleCombatEvents(e, ...)
+	if e == "su.target" then
+		TargetHandler(...)
+	elseif e == "su.slain_target" then
+		SlainTargetHandler(...)
+	elseif e == "su.clear_target" then
+		ClearTargetHandler(...)
+	end
+end</script>
+					<eventHandlerList>
+						<string>su.target</string>
+						<string>su.slain_target</string>
+						<string>su.clear_target</string>
+					</eventHandlerList>
+				</Script>
+			</ScriptGroup>
+		</ScriptGroup>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Core</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>Library Extensions</name>
+				<packageName></packageName>
+				<script>local noTitleWords = {
+	"a", "an", "the", "and", "of", "in"
+}
+
+-- String
+
+getmetatable("").__mod = function(a, b)
+	if not b then
+		return a
+  elseif type(b) == "table" then
+    return string.format(a, unpack(b))
+  else
+    return string.format(a, b)
+  end
+end
+
+function string.title(str)
+	if type(str) == "string" then
+		str = str:gsub("([a-zA-Z']+)", function (word)
+			if table.contains(noTitleWords, word) == false or word == str:match("^%w+") then
+				word = string.upper(word:sub(1, 1)) .. string.lower(word:sub(2, -1))
+				return word
+			end
+		end)
+		return str
+	else
+	return str
+	end
+end
+
+function string.right(str)
+	str = tostring(str)
+	return string.rep(" ", su.wrap_width - string.len(str)) .. str
+end
+
+function string.center(str)
+	str = tostring(str)
+	return string.rep(" ", (su.wrap_width / 2) - math.round(string.len(str) / 2)) .. str
+end
+
+function string.trim(str)
+	str = tostring(str)
+	return str:gsub("^%s*(.-)%s*$", "%1")
+end
+
+function string.space(x)
+	x = x or 0
+	return string.rep(" ", x)
+end
+
+function string.truncate(str, n)
+	str = tostring(str)
+
+	if str:len() &gt; n then
+		return str:sub(1, n - 3) .. "..."
+	else
+		return str
+	end
+end
+
+function string.wrap(str, limit, indent, indent1, tail)
+	indent = indent or ""
+	indent1 = indent1 or indent
+	limit = limit or cd.sys.wrapWidth
+	tail = tail or ""
+
+	local here = 1 - #indent1
+	return indent1 .. str:gsub("(%s+)()(%S+)()", function(sp, st, word, fi)
+		if fi - here &gt; limit then
+			here = st - #indent
+
+			return "\n" .. indent .. word
+		end
+	end)
+end
+
+function string.wrap2(str, maxLen, ind, dec)
+	-- str: The message.
+	-- maxLen: Column the message can write to.
+	-- ind: How many spaces to indent the message by.
+	-- dec: Decoration. Should be a string only.
+
+	maxLen = maxLen or 72
+	ind = ind or 0
+	dec = dec or ""
+	local endDec = dec
+	if dec == "[" then endDec = "]"
+		elseif dec == "\(" then endDec = "\)"
+		elseif dec == "\&lt;" then endDec = "\&gt;"
+		elseif dec == "\{" then endDec = "\}"
+	end
+
+	local decSpace = ind - (dec:len() + 1)
+	if decSpace &lt; 1 then decSpace = 1 end
+
+	-- Output is a table into which lines of text are stored.
+	local output = {
+		[1] = ""
+	}
+
+	-- Break the string apart.
+	str = str:split(" ")
+
+	-- Create the head of the string.
+	if dec ~= "" then
+		table.insert(str, 1, string.space(decSpace) .. dec .. " ")
+	elseif ind == 0 then
+		table.insert(str, 1, "")
+	else
+		table.insert(str, 1, string.space(ind))
+	end
+
+	-- Form lines based on string length.
+	local length = 0
+	local line = 1
+	for i, txt in ipairs(str) do
+		local l = txt:len()
+		if i &gt; 2 then l = l + 1 end -- To account for the space.
+		length = length + l
+		if length &lt;= maxLen then
+			if i &gt; 2 then
+				output[line] = output[line] .. " " .. txt
+			else
+				output[line] = output[line] .. txt
+			end
+		else
+			-- New line.
+			length = l + ind
+			line = line + 1
+			output[line] = string.space(ind) .. txt
+		end
+	end
+
+	-- Put the end decoration on the tail.
+	if endDec ~= "" then
+		output[line] = output[line] .. string.space(maxLen - string.len(output[line])) .. endDec
+	end
+
+	return table.concat(output, "\n")
+end
+
+function string.jleft(str, amt)
+	str = tostring(str)
+
+	if not str then error("No string passed to string.jleft().") end
+	if not amt or amt &lt; 0 then amt = 0 end
+
+	return str .. string.rep(" ", amt - str:len())
+end
+
+function string.jright(str, amt)
+	str = tostring(str)
+
+	if not str then error("No string passed to string.jright().") end
+	if not amt or amt &lt; 0 then amt = 0 end
+
+	return string.rep(" ", amt - str:len()) .. str
+end
+
+function string.jcenter(str, amt)
+	str = tostring(str)
+
+	if not str then error("No string passed to string.jright().") end
+	if not amt or amt &lt; 0 then amt = 0 end
+
+	local space = amt - str:len()
+	local cut1 = math.round(space / 2)
+	local cut2 = space - cut1
+
+	return string.rep(" ", cut1) .. str .. string.rep(" ", cut2)
+end
+
+function string.stripXTERM(str)
+	str = str:gsub(string.char(27) .. "%[%d;%d+;%d+m", "")
+	str = str:gsub(string.char(27) .. "%[%d+;%d+m", "")
+	return str
+end
+
+-- Table
+
+function table.shuffle(t)
+	assert(t, "table.shuffle() expected a table, got nil")
+	local newTable = t
+	local iterations = #newTable
+	local j
+    
+	for i = iterations, 2, -1 do
+		j = math.random(i)
+		newTable[i], newTable[j] = newTable[j], newTable[i]
+	end
+
+	return newTable
+end
+
+function pairsByKeys(t, f)
+	local a = {}
+
+	for n in pairs(t) do
+		table.insert(a, n)
+	end
+
+	table.sort(a, f)
+	local i = 0
+	local iter = function ()
+		i = i + 1
+		if a[i] == nil then
+			return nil
+		else
+			return a[i], t[a[i]]
+		end
+	end
+
+	return iter
+end
+
+function table.sentence(t)
+	assert(t, "table.sentence() expected a table, got nil.")
+
+	local table_string = ""
+
+	if #t == 0 then return "" end
+	if #t == 1 then return t[1] end
+
+	for i = 1, #t do
+		local append = " "
+
+		if #t &gt; 2 then append = "," .. append end
+		if i == #t then append = append .. "and " end
+		if i ~= 1 then table_string = table_string .. append end
+
+		table_string = table_string .. t[i]
+	end
+
+	return table_string
+end
+
+-- Math
+
+function math.round(num, idp)
+	local mult = 10 ^ (idp or 0)
+	return math.floor(num * mult + 0.5) / mult
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Color Table Extension</name>
+				<packageName></packageName>
+				<script>function darkColor(color)
+	local dR, dG, dB
+	local R, G, B = unpack(color_table[color])
+	dR = R - 90
+   dG = G - 90
+   dB = B - 90
+   if dR &lt; 0 then dR = 0 end
+   if dG &lt; 0 then dG = 0 end
+   if dB &lt; 0 then dB = 0 end
+	color_table.darker = {dR, dG, dB}
+	return "darker"
+end
+
+function lightColor(color)
+	local lR, lG, lB
+	local R, G, B = unpack(color_table[color])
+	lR = R + 75
+   lG = G + 75
+   lB = B + 75
+   if lR &gt; 255 then lR = 255 end
+   if lB &gt; 255 then lG = 255 end
+   if lG &gt; 255 then lB = 255 end
+	color_table.lighter = {lR, lG, lB}
+	return "lighter"
+end
+
+-- Standard MU* colors.
+color_table.a_darkred = {128, 0, 0}
+color_table.a_darkgreen = {0, 179, 0}
+color_table.a_brown = {128, 128, 0}
+color_table.a_darkblue = {0, 0, 128}
+color_table.a_darkmagenta = {128, 0, 128}
+color_table.a_darkcyan = {0, 128, 128}
+color_table.a_grey = {192, 192, 192}
+color_table.a_darkgrey = {128, 128, 128}
+color_table.a_red = {255, 0, 0}
+color_table.a_green = {0, 255, 0}
+color_table.a_yellow = {255, 255, 0}
+color_table.a_blue = {0, 85, 255}
+color_table.a_magenta = {255, 0, 255}
+color_table.a_cyan = {0, 255, 255}
+color_table.a_white = {255, 255, 255}
+
+-- Very dark colors.
+color_table.dead_grey = {18, 27, 27}
+color_table.dead_brown = {34, 23, 6}
+color_table.dead_green = {0, 51, 0}
+color_table.dead_red = {51, 0, 0}
+color_table.dead_blue = {0, 0, 51}
+color_table.dead_yellow = {34, 34, 0}
+color_table.dead_magenta = {34, 6, 34}
+color_table.dead_cyan = {6, 34, 34}
+
+-- Faded colors.
+color_table.faded_red = {128, 80, 80}
+color_table.dark_faded_red = {88, 40, 40}
+color_table.faded_green = {80, 128, 80}
+color_table.dark_faded_green = {40, 88, 40}
+color_table.faded_blue = {80, 80, 128}
+color_table.dark_faded_blue = {40, 40, 88}
+
+-- System colors.
+color_table.su_dark = {25, 25, 112}
+color_table.su_light = {30, 144, 255}
+color_table.su_bright = {255, 69, 0}
+
+-- Prompt colors.
+color_table.p_hp = color_table.p_hp or {255, 0, 0}
+color_table.p_mp = color_table.p_mp or {255, 0, 0}
+color_table.p_end = color_table.p_end or {255, 0, 0}
+color_table.p_will = color_table.p_will or {255, 0, 0}
+color_table.p_eq = color_table.p_eq or {199, 21, 133}
+color_table.p_bal = color_table.p_bal or {65, 105, 225}
+color_table.p_sync = color_table.p_sync or {255, 255, 255}
+
+-- Special colors for chat replacers, etc. No need to change.
+color_table.darker = {255, 255, 255}
+color_table.lighter = {255, 255, 255}
+color_table.temp = color_table.temp or {255, 0, 255}
+
+-- Hacking colors for display replacements.
+color_table.h_function = {150, 100, 250}
+color_table.h_method = {200, 150, 255}
+color_table.h_argument = {255, 0, 255}
+color_table.h_string = {220, 130, 250}
+color_table.h_char = {70, 150, 180}
+color_table.h_numeric = {0, 255, 0}</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>GMCP Request Hooks</name>
+				<packageName></packageName>
+				<script>function RefreshInventory()
+	sendGMCP("Char.Items.Inv")
+	send(" ")
+end
+
+function RefreshPlayers()
+	sendGMCP("Comm.Channel.Players")
+	send(" ")
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Room Information</name>
+				<packageName></packageName>
+				<script>room_flags = {
+	["indoors"]    = {["value"] = function () return su.room.indoors end,    ["abbr"] = "INDR", ["color"] = "light_slate_grey"},
+	["sandy"]      = {["value"] = function () return su.room.sandy end,      ["abbr"] = "SAND", ["color"] = "light_goldenrod"},
+	["water"]      = {["value"] = function () return su.room.water end,      ["abbr"] = "WATR", ["color"] = "dodger_blue"},
+	["shop"]       = {["value"] = function () return su.room.shop end,       ["abbr"] = "$$$$", ["color"] = "goldenrod"},
+	["library"]    = {["value"] = function () return su.room.library end,    ["abbr"] = "LBRY", ["color"] = "pale_green"},
+	["darkness"]   = {["value"] = function () return su.room.darkness end,   ["abbr"] = "DARK", ["color"] = "dark_violet"},
+	["light"]      = {["value"] = function () return su.room.light end,      ["abbr"] = "LITE", ["color"] = "navajo_white"},
+	["underwater"] = {["value"] = function () return su.room.underwater end, ["abbr"] = "UNDW", ["color"] = "dark_slate_blue"},
+	["overgrowth"] = {["value"] = function () return su.room.overgrowth end, ["abbr"] = "OVGR", ["color"] = "sea_green"},
+	["bank"]       = {["value"] = function () return su.room.bank end,       ["abbr"] = "BANK", ["color"] = "saddle_brown"},
+}
+
+function getCleanAreaName(area)
+	area = area or su.room.area
+
+	if area == nil then area = "" end
+
+	return area:gsub("^the ", "")
+end
+
+function inShip()
+	return su.room.num == -2 and su.room.env == "bridge"
+end
+
+function inHack()
+	return su.room.num == -2 and su.room.env == "" and su.room.area == ""
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Room Environments</name>
+				<packageName></packageName>
+				<script>su.env.id = {
+	-- [x] = {name = "", short = "", color = ""},
+	[1]  = {name = "unknown", short = "?????", color = "a_red"},
+	[2]  = {name = "bridge", short = "brdge", color = "dark_khaki"},
+	[3]  = {name = "cargo bay", short = "cargo", color = "dark_goldenrod"},
+	[4]  = {name = "spacecraft", short = "spcrf", color = "steel_blue"},
+	[5]  = {name = "engine room", short = "engin", color = "gold"},
+	[6]  = {name = "medical facility", short = "medic", color = "pale_violet_red"},
+	[7]  = {name = "spaceport", short = "sport", color = "steel_blue"},
+	[8]  = {name = "hangar", short = "hngar", color = "medium_sea_green"},
+	[9]  = {name = "militarybase", short = "mbase", color = "dark_olive_green"},
+	[10] = {name = "commandpost", short = "cpost", color = "lime_green"},
+	[11] = {name = "obstaclecourse", short = "obcrs", color = "orange"},
+	[12] = {name = "cantina", short = "cntna", color = "saddle_brown"},
+	[13] = {name = "urban", short = "urban", color = "slate_grey"},
+	[15] = {name = "office", short = "offic", color = "a_grey"},
+	[915] = {name = "street", short = "stret", color = "firebrick"},
+	[16] = {name = "building", short = "bldng", color = "navajo_white"},
+	[17] = {name = "campsite", short = "cmpst", color = "sienna"},
+	[18] = {name = "slumstreet", short = "slstr", color = "dark_slate_grey"},
+	[19] = {name = "slum", short = "slums", color = "dark_slate_grey"},
+	[20] = {name = "slumbuilding", short = "slbld", color = "dark_slate_grey"},
+	[21] = {name = "ruin", short = "ruins", color = "chocolate"},
+	[22] = {name = "urbanunderground", short = "urugd", color = "dark_slate_grey"},
+	[23] = {name = "lift", short = "lift", color = "a_white"},
+	[24] = {name = "transport", short = "trans", color = "a_yellow"},
+	[25] = {name = "badlands", short = "badln", color = "orange_red"},
+	[26] = {name = "factory", short = "factr", color = "firebrick"},
+	[28] = {name = "residence", short = "rsdnc", color = "a_grey"},
+	[30] = {name = "meadow", short = "meadw", color = "lime_green"},
+	[34] = {name = "corral", short = "coral", color = "sienna"},
+	[61] = {name = "hydroponics", short = "hydro", color = "sea_green"},
+	[66] = {name = "bedroom", short = "bedrm", color = "pale_violet_red"},
+	[67] = {name = "shop", short = "shop", color = "pale_goldenrod"},
+	[85] = {name = "canal", short = "canal", color = "a_blue"},
+}
+
+su.env.name_id = {}
+for i, _ in pairs(su.env.id) do
+	su.env.name_id[su.env.id[i].name] = i
+end
+
+su.env.info = {
+}
+
+for id, _ in ipairs(su.env.id) do
+	local name, color = su.env.id[id].name, su.env.id[id].color
+	if color ~= nil and color ~= "" then
+		local r, g, b = unpack(color_table[color])
+		setCustomEnvColor(id, r, g, b, 255)
+	end
+end
+
+local function isValidRoom(r)
+	if r == nil then return false end
+	if tonumber(r) == nil then return false end
+	if r &lt; 0 or r &gt; 100000 then return false end
+	return true
+end
+
+function getEnvironmentID(env)
+	if type(env) == "number" and su.env.id[env] ~= nil then
+		return env
+	end
+
+	if su.env.name_id[env] ~= nil then
+		return su.env.name_id[env]
+	end
+
+	return nil
+end
+
+function getEnvironmentColor(env)
+	local c = "a_red"
+	local id = env
+	
+	if type(env) == "string" and su.env.name_id[env] then
+		id = su.env.name_id[env]
+	end
+
+	if type(id) == "number" then
+		c = su.env.id[id].color
+	else
+		-- error("Core &gt; Room Environments &gt; getEnvironmentColor(): Invalid environment ID, %s, specified." % {id})
+		return su.env.id[1].color
+	end
+
+	if c == "" or c == nil then
+		return "a_red"
+	else
+		return c
+	end
+end
+
+-- Tallies up what environments are present in each area.
+function getAreaEnvironments(areaid)
+	local roomlist, environments = getAreaRooms(areaid), {}
+	-- Handler, on the occasion that getAreaRooms() fails for whatever reason.
+	if not roomlist then
+		error("Core &gt; Room Environments &gt; getAreaEnvironments(): getAreaRooms() failed to grab rooms. Try redownloading the map.")
+		return
+	end
+
+	-- Collect the environment for each room, tally up to master table.
+	for _,id in pairs(roomlist) do
+		local env = getRoomEnv(id)
+		if not environments[env] then
+			environments[env] = 1
+		else
+			environments[env] = environments[env] + 1
+		end
+	end
+
+	return environments
+end
+
+-- Creates an aesthetic display of an area's environments.
+function areaEnvironmentSurvey(areaid)
+	-- Assume current area if none is supplied.
+	if not areaid then
+		areaid = getRoomArea(su.room.num)
+	end
+
+	-- If the area doesn't exist, throw an error.
+	if getRoomAreaName(areaid) == -1 then
+		error("Area ID " .. areaid .. " does not exist.")
+		return
+	end
+
+	-- Get the area's environments, convert to a readable list.
+	local list = getAreaEnvironments(areaid)
+	local list2 = {}
+	-- "longest" defines the length of the longest area name.
+	local longest = 0
+	-- +1 is added since table key "0" isn't counted.
+	local roomcount = #getAreaRooms(areaid) + 1
+	for id, count in pairs(list) do
+		local name = "undefined"
+		if id ~= 0 and su.env.id[id] ~= nil then
+			name = su.env.id[id].name
+		end
+		if name:len() &gt; longest then
+			longest = name:len()
+		end
+		list2[name] = count
+	end
+
+	moduleHeader("mapper", "area", "environment survey")
+
+	cecho("\n&lt;a_brown&gt;  Area name:  &lt;a_grey&gt;" .. getRoomAreaName(areaid) .. ".")
+	cecho("\n&lt;a_brown&gt;  Room count: &lt;a_grey&gt;" .. roomcount .. ".\n")
+
+	for k,v in pairs(list2) do
+		-- Tally up what percentage of the area this environment takes up.
+		local perc = math.round((v * 100) / roomcount, 2)
+
+		cecho("\n  " .. string.rep(" ", 5 - string.len(tostring(perc))) .. "&lt;a_darkgrey&gt;\[&lt;a_grey&gt;" .. perc .. "&lt;a_darkgrey&gt;\%\] ")
+		fg(getEnvironmentColor(k))
+		echo(k:title())
+		cecho(" &lt;dead_grey&gt;" .. string.rep(".", (longest + 2) - k:len()) .. " &lt;a_grey&gt;" .. v .. string.rep(" ", 2 - string.len(tostring(v))) .. " &lt;a_darkgrey&gt;rooms")
+	end
+
+	moduleFooter()
+end
+
+-- For finding specific environments.
+function areaFindEnvironments(env)
+	if not env then
+		error("No environment type supplied to areaFindEnvironments().")
+		return
+	end
+
+	-- If the environment doesn't exist, throw an error.
+	if getEnvironmentID(env) == nil then
+		notify("Mapper", "No environment by that name or ID was found.")
+		return
+	end
+
+	env = getEnvironmentID(env)
+
+	local area_list = {}
+
+	for i, n in pairs(getRooms()) do
+		local a = getRoomArea(i)
+		local e = getRoomEnv(i)
+		if e == env then
+			if not area_list[a] then area_list[a] = {} end
+			table.insert(area_list[a], i)
+		end
+	end
+
+	moduleHeader("mapper", "area", "environment search")
+
+	cecho("\n&lt;a_brown&gt;  All areas with environment type &lt;" .. getEnvironmentColor(env) .. "&gt;" .. su.env.id.name:title() .. "&lt;a_brown&gt;.\n")
+
+	for a, _ in pairs(area_list) do
+		local a_name = getCleanAreaName(a)
+		cecho("\n  &lt;a_darkgrey&gt;" .. a_name:jright(32) .. ": &lt;a_grey&gt;" .. #area_list[a] .. " rooms.")
+	end
+
+	moduleFooter()
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>System Display</name>
+				<packageName></packageName>
+				<script>function erase()
+	deleteLine()
+	echo("\n")
+end
+
+function rewrite(str)
+	erase()
+	cecho(str)
+end
+
+function notify(...)
+	local module, str, skip_newline
+	local args = {...}
+
+	if args[#args] == false then
+		skip_newline = true
+		args[#args] = nil
+	end
+
+	if #args == 2 then
+		module = args[1]
+		str = args[2]
+	elseif #args == 1 then
+		module = su.shortname
+		str = args[1]
+	else
+		error("Passed too many arguments to notify().")
+	end
+
+	cecho("&lt;a_darkgrey&gt;[" .. "&lt;dodger_blue&gt;" .. module .. "&lt;a_darkgrey&gt;]: &lt;grey&gt;" .. str)
+	if skip_newline ~= true then
+		send("\n")
+	end
+end
+
+function hr(color, str)
+	local color = color or "a_darkblue"
+	local remainder = su.wrap_width
+	if str then
+		cecho("&lt;%s&gt;\-\- &lt;a_grey&gt;%s " % {color, str})
+		remainder = remainder - (4 + str:len())
+	end
+	cecho("&lt;" .. color .. "&gt;" .. string.rep("-", remainder))
+end
+
+function fixTime(d)
+	d = tostring(d)
+
+	return string.rep("0", 2 - d:len()) .. d
+end
+
+function pNum(n)
+	-- pNum, aka prettyNumber().
+	-- Inserts commas into number values.
+
+	if type(n) ~= "string" and type(n) ~= "number" then
+		error("Passed invalid type (" .. type(n) .. ") to pNum().")
+		return
+	end
+
+	n = tostring(n)
+
+	if n:match("^%d+$") == nil then
+		return n
+	elseif n:len() &lt;= 3 then
+		return n
+	end
+
+	local output = ""
+
+	local count = 0
+	for i = n:len(), 1, -1 do
+		count = count + 1
+		local x = n:sub(i, i)
+		if i == n:len() then
+			output = x
+		elseif i == 1 then
+			output = x .. output
+		else
+			if count == 3 then
+				count = 0
+				output = "," .. x .. output
+			else
+				output = x .. output
+			end
+		end
+	end
+
+	return output
+end
+
+function moduleHeader(modname, ...)
+	-- Creates a unified header for all module displays.
+	structure = {...}
+
+	cecho(" &lt;a_darkblue&gt;\-\- &lt;forest_green&gt;" ..  modname .. " &lt;a_darkblue&gt;" .. string.rep("-", (su.wrap_width - 5) - modname:len()))
+
+	if #structure == 0 then
+		cecho("\n    &lt;a_grey&gt;main &lt;a_darkgrey&gt;\&gt; &lt;dodger_blue&gt;" .. string.lower(modname) .. "\n")
+	else
+		local structString = ""
+		for i,v in ipairs(structure) do
+			if i == #structure then
+				structString = structString .. " \&gt; &lt;dodger_blue&gt;" .. v
+			else
+				structString = structString .. " \&gt; " .. v
+			end
+		end
+		
+		cecho("\n    &lt;a_grey&gt;main&lt;a_darkgrey&gt;" .. structString .. "\n")
+	end
+end
+
+function moduleFooter()
+	cecho("\n &lt;a_darkblue&gt;" .. string.rep("-", su.wrap_width - 2))
+	send("\n")
+end
+
+function alert(str)
+	cecho("\n&lt;a_darkblue&gt;\[&lt;gold&gt;!&lt;a_darkblue&gt;\] &lt;grey&gt;%s" % {str})
+end
+
+function displayXPUpdate()
+	local x, c, plus = su.char.xp.update, "gold", "+"
+	local update_string
+	if x == 0 then
+		error("displayXPUpdate() somehow fired with no XP update.")
+		return
+	end
+	
+	if x &lt; 0 then
+		c = "firebrick"
+		plus = ""
+	end
+	
+	cecho("\n  &lt;dark_goldenrod&gt;XP: &lt;%s&gt;%s%s" % {c, plus, su.char.xp.update})
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Directions, Logistics</name>
+				<packageName></packageName>
+				<script>dirs = {
+	[1]  = "northwest",
+	[2]  = "north",
+	[3]  = "northeast",
+	[4]  = "west",
+	[5]  = "east",
+	[6]  = "southwest",
+	[7]  = "south",
+	[8]  = "southeast",
+	[9]  = "up",
+	[10] = "down",
+	[11] = "in",
+	[12] = "out",
+}
+
+short_dirs = {
+	[1]  = "nw",
+	[2]  = "n",
+	[3]  = "ne",
+	[4]  = "w",
+	[5]  = "e",
+	[6]  = "sw",
+	[7]  = "s",
+	[8]  = "se",
+	[9]  = "u",
+	[10] = "d",
+	[11] = "i",
+	[12] = "o",
+}
+
+reverse_dirs = {
+	[1]  = "se",
+	[2]  = "s",
+	[3]  = "sw",
+	[4]  = "e",
+	[5]  = "w",
+	[6]  = "ne",
+	[7]  = "n",
+	[8]  = "nw",
+	[9]  = "d",
+	[10] = "u",
+	[11] = "o",
+	[12] = "i",
+}</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Player</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>Input</name>
+				<packageName></packageName>
+				<script>local minimum_throttle_time = 0.3
+
+function setThrottleTime()
+	-- Set the throttle to a minimum of 0.2 seconds,
+	-- assuming an ideal of 80ms ping or lower.
+	local lag = getNetworkLatency()
+	su.throttle_time = (lag * 10) * 0.2
+
+	if su.throttle_time &lt;= minimum_throttle_time then
+		su.throttle_time = minimum_throttle_time
+	elseif su.throttle_time &gt; 0.75 then
+		su.throttle_time = 0.75
+	end
+
+	if su.throttle_time &lt; 0.2 then su.throttle_time = 0.2 end
+end
+
+function attempt(action, syntax, ...)
+	syntax = syntax or action
+	if type(syntax) == "string" then
+		syntax = syntax:split("%|")
+	end
+
+	if not su.throttle[action] then
+		throttle(action)
+		if type(syntax) == "function" then
+			syntax(...)
+		else
+			for i,v in ipairs(syntax) do
+				send(v, false)
+			end
+		end
+
+		tempTimer(0.5, [[unthrottle("]] .. action .. [[")]])
+	end
+end
+
+function throttle(action)
+	su.throttle[action] = true
+end
+
+function unthrottle(action)
+	su.throttle[action] = nil
+end
+
+function isThrottled(action)
+	if su.throttle[action] then
+		return true
+	end
+
+	return false
+end
+
+function sendStack(...)
+	local separator = "|"
+	local cmds = {...}
+	if #cmds == 0 then
+		return
+	end
+
+	if type(cmds[1]) == "table" then
+		local t = cmds[1]
+		cmds = {}
+		for _, command in ipairs(t) do
+			table.insert(cmds, command)
+		end
+	end
+
+	local stack = {[1] = {}}
+	local index = 1
+
+	for _, command in ipairs(cmds) do
+		if #stack[index] == 15 then
+			index = index + 1
+			stack[index] = {}
+		end
+
+		table.insert(stack[index], command)
+	end
+
+	for i, _ in pairs(stack) do
+		send(table.concat(stack[i], separator), false)
+	end
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Auditing</name>
+				<packageName></packageName>
+				<script>function onBAL()
+	return su.bal
+end
+
+function onWW()
+	return su.ww
+end
+
+function isProne()
+	return false
+end
+
+function isDead()
+	return su.char.hp.cur &lt; 1
+end
+
+function target()
+	if su.hunting.superhunting then
+		if su.hunting.hunting_target == nil then
+			return "none"
+		else
+			return su.hunting.hunting_target
+		end
+	end
+
+	return su.target or "none"
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Movement</name>
+				<packageName></packageName>
+				<script>local specialExits = {
+	["5252"] = {dir = "out", command = "touch panel|1"},
+}
+
+getSpecialExit = function (room)
+	room = tostring(room)
+	if specialExits[room] then
+		return specialExits[room].dir, specialExits[room].command
+	end
+	
+	return nil
+end
+
+local moveMods = {
+	control = "ship turn",
+	-- alt = "ship turn",
+}
+
+move = function (dir, mod)
+	last_dir = dir
+	suppressSwimmingWarning = true
+	
+	local special_dir, special_command = getSpecialExit(su.room.num)
+	
+	if (special_dir ~= nil and dir == special_dir) and special_command ~= nil then
+		send(special_command, false)
+		return
+	end
+	
+	if mod and moveMods[mod] then
+		if type(moveMods[mod]) == "function" then
+			send(moveMods[mod]() .. " " .. dir, false)
+		else
+			send(moveMods[mod] .. " " .. dir, false)
+		end
+	else
+		send(dir, false)
+	end
+end</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Combat</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>Battle</name>
+				<packageName></packageName>
+				<script>function Battle()
+	if isAutoHunting() then
+		AutoHunt()
+	else
+		-- PVP stuff.
+	end
+end</script>
+				<eventHandlerList />
+			</Script>
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Hunting</name>
+				<packageName></packageName>
+				<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>Hunting Logic</name>
+					<packageName></packageName>
+					<script>function isAutoHunting()
+	return su.hunting.autohunting == true
+end
+
+function getHuntingTarget()
+	return su.hunting.hunting_target
+end
+
+function canHunt()
+	if not onBAL() then
+		return false
+	end
+
+	-- if cannot("hunt") then
+		-- return false
+	-- end
+
+	return true
+end
+
+function AutoHunt()
+	if su.hunting.autohunting ~= true then
+		su.hunting.currently_attacking = false
+		return
+	end
+
+	local c = shortClassName(su.char.class)
+
+	-- We should only auto-attack with the correct module set.
+	if isAutoHunting() ~= true then
+		return
+	end
+
+	if su.hunting.currently_attacking ~= true then
+		return
+	end
+
+	-- Failed to pass physical requirements to attack.
+	if canHunt() == false then
+		return
+	end
+
+	if inHack() then
+		attempt("battle", "infect " .. target())
+	else
+		if target_acquired ~= true then
+			attempt("target", "st " .. target())
+		end
+
+  	if isProne() then
+  		attempt("battle", "stand")
+  	elseif c and c ~= "" then
+  		su.classes[c].huntRoutine()
+  	else
+  		attempt("battle", "punch " .. target())
+  	end
+	end
+end</script>
+					<eventHandlerList />
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>Mob Database</name>
+					<packageName></packageName>
+					<script>-- This table contains the lists of mobs in each area, ordered by
+-- priority.
+
+-- To use regex to match the name of a mob, you must start the string
+-- with a carat (^).
+
+su.hunting.mob_priority = {
+	-- ["X"] = {
+		-- "X"
+	-- },
+	["HACKING"] = {
+		"a polymorphic antivirus",
+		"a wedge-shaped black scanner",
+		"a smooth-surfaced honeypot",
+		"a hard-light firewall",
+		"a hard-light mobile firewall",
+		"a basic antivirus",
+		"an erratic glitch",
+		"an erratic mobile glitch",
+	},
+	["The Undercity of Litharge"] = {
+		"a glitch-riddled security robot", "an aggressively malfunctioning drone"
+	},
+	["Scrapston, a borough of Litharge"] = {
+		"a poisonous eel", "a needle-mouthed eel", "a grime-slick eel"
+	},
+	["The Subnet of Litharge"] = {
+		"an eccentric Nabian scientist",
+		"a green-glowing Decheeran mutant",
+		-- "a desperate young drug runner",
+		"^[an]+ .+ .+ underdweller$",
+		"^[an]+ .+ .+ mugger$",
+		"^[an]+ .+ .+ drug addict$",
+		"^[an]+ .+ .+ vagrant$",
+		"^[an]+ .+ .+ scavenger$",
+	},
+	["Lowtown, a slum of Narisiriz"] = {
+		"a strung-out male Lowtowner", "a strung-out female Lowtowner",
+		"a thrashing heik-il vine", "a juvenile heik-il vine"
+	},
+	["Goribar Farm"] = {
+		"a large loam leech", "a small loam leech"
+	},
+}</script>
+					<eventHandlerList />
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>Hunting Utility</name>
+					<packageName></packageName>
+					<script>getHuntAreaPriority = function ()
+	local area
+	if inHack() then
+		area = "HACKING"
+	else
+		area = getCleanAreaName()
+	end
+
+	if table.contains(su.hunting.mob_priority, area) == true then
+		return su.hunting.mob_priority[area]
+	else
+		return false
+	end
+end
+
+getPriorityHuntTarget = function ()
+	return su.hunting.hunt_queue[1]
+end
+
+updateHuntTarget = function ()
+	if not su.hunting.hunting_target then					-- No target at all.
+		su.hunting.hunting_target = getPriorityHuntTarget()
+	elseif table.contains(su.hunting.hunt_queue, su.hunting.hunting_target) == false then
+		su.hunting.hunting_target = getPriorityHuntTarget()
+	end
+	if su.hunting.hunting_target ~= nil and su.hunting.hunting_target ~= "none" then
+		-- cd.Broadcast("Target: " .. sb.currentTarget)
+		-- modify to call out your target
+	end
+end
+
+getHuntTargetName = function ()
+	return su.room.mobs[su.hunting.hunting_target]
+end</script>
+					<eventHandlerList />
+				</Script>
+			</ScriptGroup>
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Afflictions</name>
+				<packageName></packageName>
+				<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>Affliction Management</name>
+					<packageName></packageName>
+					<script>aff = {}
+
+aff.has = function (a)
+	return su.afflictions[a]
+end
+
+aff.add = function (a)
+	if su.afflictions[a] ~= nil then
+		return
+	end
+
+	su.afflictions[a] = os.clock()
+end
+
+aff.rem = function (a)
+	if not su.afflictions[a] then
+		return 0
+	end
+
+	local t = os.clock() - su.afflictions[a]
+	su.afflictions[a] = nil
+
+	return t
+end
+
+aff.addHidden = function ()
+	if su.hiddenAffs == nil then
+		su.hiddenAffs = 1
+	else
+		su.hiddenAffs = su.hiddenAffs + 1
+	end
+end
+
+aff.remHidden = function ()
+	if su.hiddenAffs ~= nil and su.hiddenAffs &gt; 0 then
+		su.hiddenAffs = su.hiddenAffs - 1
+		if su.hiddenAffs == 0 then
+			su.hiddenAffs = nil
+		end
+	end
+end
+
+aff.sym = function (a)
+	local hidden = false
+	if not aff.has(a) then
+		hidden = true
+	end
+
+	aff.add(a)
+
+	if hidden == false then
+		return
+	end
+
+	aff.remHidden()
+end
+
+aff.getCure = function (a)
+end
+
+aff.clearAll = function()
+	su.afflictions = {}
+end</script>
+					<eventHandlerList />
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>Affliction Restrictions</name>
+					<packageName></packageName>
+					<script>local actions = {
+	["hunt"] = {"entangled", "prone", "sleeping"}
+}
+
+function cannot(act)
+	if not actions[act] then
+		return true
+	end
+
+	for _, a in ipairs(actions[act]) do
+		if aff.has(a) then
+			return true
+		end
+	end
+
+	return false
+end</script>
+					<eventHandlerList />
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>Enemy Affliction Management</name>
+					<packageName></packageName>
+					<script>function clearEnemyAffs()
+	for aff, _ in pairs(su.enemy) do
+		su.enemy[aff] = false
+	end
+end</script>
+					<eventHandlerList />
+				</Script>
+			</ScriptGroup>
+			<Script isActive="yes" isFolder="no">
+				<name>Cooldown Management</name>
+				<packageName></packageName>
+				<script>local cd_colors = {
+	rapidfire = "saddle_brown"
+}
+
+function cooldown(cd, no_replace)
+	if no_replace ~= false then no_replace = nil end
+	su.cooldowns[cd] = os.time()
+
+	if no_replace ~= false then
+		local color, dark
+		if cd_colors[cd] then
+			color = cd_colors[cd]
+		else
+			color = "light_sea_green"
+		end
+		dark = darkColor(color)
+
+		erase()
+		cecho("&lt;darker&gt;- &lt;%s&gt;%s &lt;a_darkgrey&gt;on cooldown. &lt;darker&gt;-" % {color, cd:title()})
+	end
+end
+
+function recovery(cd, no_replace)
+	if no_replace ~= false then no_replace = nil end
+	su.cooldowns[cd] = nil
+
+	if no_replace ~= false then
+		local color, light
+		if cd_colors[cd] then
+			color = cd_colors[cd]
+		else
+			color = "light_sea_green"
+		end
+		light = lightColor(color)
+
+		erase()
+		cecho("&lt;lighter&gt;+ &lt;%s&gt;%s &lt;a_grey&gt;recovered! &lt;lighter&gt;+" % {color, cd:title()})
+	end
+end
+
+function onCooldown(cd)
+	if su.cooldowns[cd] ~= nil then
+		return true
+	end
+
+	return false
+end</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Starmourn Data</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>Initialize Table</name>
+				<packageName></packageName>
+				<script>starmourn = starmourn or {}</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Calendar, Time, Etc.</name>
+				<packageName></packageName>
+				<script>starmourn.calendar = {
+	[1]  = "Nano",
+	[2]  = "Micro",
+	[3]  = "Milli",
+	[4]  = "Centi",
+	[5]  = "Deci",
+	[6]  = "Deca",
+	[7]  = "Hecto",
+	[8]  = "Kilo",
+	[9]  = "Mega",
+	[10] = "Giga",
+	[11] = "Tera",
+	[12] = "Peta",
+	[13] = "Exa",
+	[14] = "Zetta",
+	[15] = "Yotta",
+}
+
+starmourn.days_in_month = 24
+starmourn.months_in_year = 15
+starmourn.days_in_year = 360</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Waypoints</name>
+				<packageName></packageName>
+				<script>starmourn.junk_shops = {
+	5247, 5434
+}
+
+starmourn.poi = { -- Places of Interest
+	Malice = 4171,
+}</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Class Definition</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>Class Utility</name>
+				<packageName></packageName>
+				<script>local short_names = {
+	["B.E.A.S.T."] = "beast",
+	["Engineer"] = "engineer",
+	["Fury"] = "fury",
+	["Scoundrel"] = "scoundrel",
+	["Nanoseer"] = "nanoseer",
+}
+
+function shortClassName(class)
+	return short_names[class]
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Scoundrel</name>
+				<packageName></packageName>
+				<script>su.classes.scoundrel = {
+	name = "Scoundrel"
+}
+
+function su.classes.scoundrel.huntRoutine()
+	-- elseif su.char.hp.per &lt;= 80 then
+		-- attempt("battle", "guile stim")
+	if su.char.bullets.cur &lt; 1 then
+		attempt("battle", "gun spin")
+	elseif su.char.bullets.cur &gt;= 2 and onCooldown("rapidfire") ~= true then
+		attempt("battle", "gun rapidfire " .. target())
+	else
+		attempt("battle", "gun crackshot " .. target())
+	end
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>B.E.A.S.T.</name>
+				<packageName></packageName>
+				<script>--[[
+	Very High: 1000
+	High: 600+
+	Med: 300+
+
+  HIGH
+	----
+
+	LOW
+	---
+	Plasma Resistance: 100 plasma
+	Plasma Burn: 30 plasma
+]]--
+
+su.classes.beast = {
+	name = "B.E.A.S.T."
+}
+
+function su.classes.beast.huntRoutine()
+	if su.enemy.danger == true and not onCooldown("netlaunch") then
+		attempt("battle", "mwp netlaunch " .. target())
+		return
+	end
+
+	if su.char.hp.per &lt;= 80 and not onCooldown("support") and (su.enemy.hp ~= nil and su.enemy.hp &gt; 15) then
+		attempt("battle", "suit support")
+		return
+	end
+
+	if su.enemy.dazed ~= true then
+		attempt("battle", "suit backhand " .. target())
+	else
+		attempt("battle", "mwp wristblade " .. target())
+	end
+end
+
+function su.classes.beast.heal()
+	return("suit support")
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Nanoseer</name>
+				<packageName></packageName>
+				<script>su.classes.nanoseer = {
+	name = "Nanoseer"
+}
+
+function su.classes.nanoseer.huntRoutine()
+	-- if
+		attempt("battle", "gun crackshot " .. target())
+	-- end
+end</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>UI</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>Style Sheet</name>
+				<packageName></packageName>
+				<script>local bg_colors = {
+	normal = "#000000",
+	hacking = "#003000",
+	ship = "#000030",
+}
+
+local function getContextualBgColor()
+	if inShip() then return bg_colors.ship end
+	if inHack() then return bg_colors.hacking end
+	return bg_colors.normal
+end
+
+local widgets = {
+	QAbstractScrollArea = {},
+	QCheckBox = {},
+	QColumnView = {},
+	QComboBox = {},
+	QDateEdit = {},
+	QDialog = {},
+	QDialogButtonBox = {},
+	QDockWidget = {},
+	QDoubleSpinBox = {},
+	QFrame = {},
+	QGroupBox = {},
+	QHeaderView = {},
+	QLabel = {},
+	QLineEdit = {},
+	QListView = {},
+	QListWidget = {},
+	QMainWindow = {},
+	QMenu = {},
+	QMenuBar = {},
+	QMessageBox = {},
+	QProgressBar = {},
+	QPushButton = {},
+	QRadioButton = {},
+	QScrollBar = {},
+	QSizeGrip = {},
+	QSlider = {},
+	QSpinBox = {},
+	QSplitter = {},
+	QStatusBar = {},
+	QTabBar = {},
+	QTabWidget = {},
+	QTableView = {},
+	QTableWidget = {},
+	QTextEdit = {},
+	QTimeEdit = {},
+	QToolBar = {},
+	QToolButton = {},
+	QToolBox = {color = "#f0f"},
+	QToolTip = {},
+	QTreeView = {},
+	QTreeWidget = {},
+	QWidget = {},
+}
+
+function generateStyleSheet()
+	local sheet = ""
+	for widget, _ in pairs(widgets) do
+		if table.size(widgets[widget]) &gt; 0 then
+  		local block = "\n%s {" % {widget}
+  		for rule, parameter in pairs(widgets[widget]) do
+  			block = "%s %s: %s;" % {block, rule, parameter}
+  		end
+  		
+  		block = "%s }" % {block}
+  		
+  		sheet = "%s%s" % {sheet, block}
+		end
+	end
+
+	return sheet
+end
+
+applySUStyleSheet = function ()
+	-- setAppStyleSheet(generateStyleSheet())
+	setAppStyleSheet([[
+		QScrollBar:vertical {background: #000;}
+		QScrollBar::handle:vertical {background-color: #07f; min-height: 50px;}
+		QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {background: none; height: 0px;}
+		QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;}
+		QMenuBar {background-color: #000; color: #07f;}
+		QMenuBar::item:selected {background-color: #000; color: #0ff}
+	]])
+end
+
+applySUStyleSheet()</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>UI Utility</name>
+				<packageName></packageName>
+				<script>function resizeAllWindows()
+	for w, _ in pairs(su.windows) do
+		su.windows[w].resize()
+	end
+end
+
+function drawAllWindows()
+	for w, _ in pairs(su.windows) do
+		su.windows[w].draw()
+	end
+end
+
+function updateWindow(win)
+	if su.windows[win] and su.windows[win].update then
+		su.windows[win].update()
+	end
+end
+
+function sendToWindow(id, stamp)
+	local hour = fixTime(getTime().hour)
+	local min = fixTime(getTime().min)
+
+	selectString(line, 1)
+	copy()
+
+	if stamp ~= false then
+		cecho(id, "&lt;a_darkblue&gt;\[&lt;orange_red&gt;" .. hour .. ":" .. min .. "&lt;a_darkblue&gt;\] ")
+	end
+
+	appendBuffer(id)
+	deselect()
+	deleteLine()
+end
+
+function combatLog(str)
+	combatTimeline = combatTimeline or {}
+
+	if #combatTimeline &gt;= 20 then
+		table.remove(combatTimeline, 1)
+	end
+
+	combatTimeline[#combatTimeline + 1] = "&lt;a_darkgrey&gt;" .. getTime(true, "HH:mm:ss") .. " &lt;a_darkcyan&gt;\| " .. "&lt;a_grey&gt;" .. str
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Chat Window</name>
+				<packageName></packageName>
+				<script>local w, h = 700, 390
+
+function drawChatWindow()
+	createMiniConsole("chat", 0, 0, 0, 0)
+	resizeWindow("chat", w, h)
+	moveWindow("chat", su.winX - (w + 16), 0)
+	setBackgroundColor("chat", 0, 0, 0, 255)
+
+	setMiniConsoleFontSize("chat", 8)
+	setWindowWrap("chat", 100)
+end
+
+function clearChatWindow()
+	clearWindow("chat")
+end
+
+function resizeChatWindow()
+	resizeWindow("chat", w, h)
+	moveWindow("chat", su.winX - (w + 16), 0)
+end
+
+function registerChatWindow()
+	su.windows["chat"] = {
+		draw = drawChatWindow,
+		clear = clearChatWindow,
+		resize = resizeChatWindow,
+	}
+end
+
+registerChatWindow()</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Map Capture Window</name>
+				<packageName></packageName>
+				<script>local wrap_width = 45
+
+local char_width = 7
+local char_height = 13
+
+local name_width = 32
+local id_width = 6
+
+local col_width = name_width + id_width + 2
+local col_count = math.floor(wrap_width / col_width)
+
+local w = wrap_width * char_width
+local h = char_height * 42
+function drawMapWindow()
+	createMiniConsole("map", 0, 0, 0, 0)
+	resizeWindow("map", w, h)
+	moveWindow("map", su.winX - 1031, 390)
+	setBackgroundColor("map", 0, 0, 0, 255)
+
+	setMiniConsoleFontSize("map", 8)
+	setWindowWrap("map", wrap_width)
+end
+
+function clearMapWindow()
+	clearWindow("map")
+end
+
+function resizeMapWindow()
+	resizeWindow("map", w, h)
+	moveWindow("map", su.winX - 1031, 390)
+end
+
+function registerMapWindow()
+	su.windows["map"] = {
+		draw = drawMapWindow,
+		clear = clearMapWindow,
+		resize = resizeMapWindow,
+	}
+end
+
+registerMapWindow()</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Prompt Offload Window</name>
+				<packageName></packageName>
+				<script>function drawSpecialPromptWindow()
+	createMiniConsole("special_prompt", 0, 0, 0, 0)
+	resizeWindow("special_prompt", su.winX, 22)
+	moveWindow("special_prompt", 0, su.winY - 22)
+	setBackgroundColor("special_prompt", 0, 0, 0, 255)
+
+	setMiniConsoleFontSize("special_prompt", 9)
+end
+
+function clearSpecialPromptWindow()
+	clearWindow("special_prompt")
+end
+
+function resizeSpecialPromptWindow()
+	resizeWindow("special_prompt", su.winX, 22)
+	moveWindow("special_prompt", 0, su.winY - 22)
+end
+
+function registerSpecialPromptWindow()
+	su.windows["special_prompt"] = {
+		draw = drawSpecialPromptWindow,
+		clear = clearSpecialPromptWindow,
+		resize = resizeSpecialPromptWindow,
+	}
+end
+
+registerSpecialPromptWindow()</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>Readout Window</name>
+				<packageName></packageName>
+				<script>local wrap_width = 100
+
+local char_width = 7
+local char_height = 13
+
+local name_width = 40
+local id_width = 6
+
+local col_width = name_width + id_width + 2
+local col_count = math.floor(wrap_width / col_width)
+
+local w = wrap_width * char_width
+
+-- Window intialization. -------------------------------------------------------
+
+function drawReadoutWindow()
+	createMiniConsole("readout", 0, 0, 0, 0)
+	resizeWindow("readout", w, 536)
+	moveWindow("readout", su.winX - (w + 16), 390)
+	setBackgroundColor("readout", 0, 0, 0, 255)
+	setMiniConsoleFontSize("readout", 8)
+	setWindowWrap("readout", wrap_width)
+end
+
+function clearReadoutWindow()
+	clearWindow("readout")
+end
+
+function resizeReadoutWindow()
+	resizeWindow("readout", w, 536)
+	moveWindow("readout", su.winX - (w + 16), 390)
+end
+
+function updateReadoutWindow()
+	-- Get current readout mode.
+	local mode
+	if not su.readout.mode then
+		mode = "room"
+	else
+		mode = su.readout.mode
+	end
+
+	if mode == "room" then
+		doReadoutRoom()
+	-- elseif mode == "afflictions" then
+		-- doReadoutAfflictions()
+	elseif mode == "system" then
+		doReadoutSystem()
+	-- elseif mode == "map" then
+		-- doReadoutMap()
+	-- elseif mode == "test" then
+		-- doReadoutTest()
+	-- elseif mode == "combat" then
+		-- doReadoutCombat()
+	end
+end
+
+function registerReadoutWindow()
+	su.windows["readout"] = {
+		draw = drawReadoutWindow,
+		clear = clearReadoutWindow,
+		resize = resizeReadoutWindow,
+		update = updateReadoutWindow,
+	}
+end
+
+-- Misc. info. -----------------------------------------------------------------
+
+local balColors = {
+	["HO"] = "lime_green",
+	["SP"] = "saddle_brown",
+	["ST"] = "light_slate_grey",
+	["ES"] = "medium_purple",
+	["binds"] = "tomato",
+	["special"] = "gold",
+}
+
+local exit_symbols = {
+	["northwest"] = "\\",
+	["north"] = "|",
+	["northeast"] = "/",
+	["west"] = "-",
+	["east"] = "-",
+	["southwest"] = "/",
+	["south"] = "|",
+	["southeast"] = "\\",
+	["in"] = "&lt;",
+	["out"] = "&gt;",
+	["up"] = "^",
+	["down"] = "_",
+}
+
+local exit_plot = {
+	["northwest"] = {[1] = -2, [2] = -1},
+	["north"] = {[1] = 0, [2] = -1},
+	["northeast"] = {[1] = 2, [2] = -1},
+	["west"] = {[1] = -2, [2] = 0},
+	["east"] = {[1] = 2, [2] = 0},
+	["southwest"] = {[1] = -2, [2] = 1},
+	["south"] = {[1] = 0, [2] = 1},
+	["southeast"] = {[1] = 2, [2] = 1},
+	["in"] = {[1] = 0, [2] = 0},
+	["out"] = {[1] = 0, [2] = 0},
+	["up"] = {[1] = 0, [2] = 0},
+	["down"] = {[1] = 0, [2] = 0},
+}
+
+-- Assistant functions. --------------------------------------------------------
+
+local readoutModuleHeader = function (title, r, g, b, no_break)
+	r = r or 255
+	g = g or 255
+	b = b or 255
+
+	local dr, dg, db = math.round(r * 0.15), math.round(g * 0.2), math.round(b * 0.25)
+	if dr &lt; 0 then dr = 0 end
+	if dg &lt; 0 then dg = 0 end
+	if db &lt; 0 then db = 0 end
+
+	local col_string = "&lt;%s,%s,%s:%s,%s,%s&gt;" % {r, g, b, dr, dg, db}
+
+	if no_break ~= true then
+		echo("readout", "\n\n")
+	end
+
+	decho("readout", "%s  %s%s" % {col_string, title, string.space(wrap_width - (title:len() + 2))})
+	echo("readout", "\n")
+end
+
+-- Readout modules. ------------------------------------------------------------
+
+local drawRoomItems = function ()
+	readoutModuleHeader("Items", 28, 222, 28)
+
+	local i = 1
+	local c = 1
+	local s = table.size(su.room.contents)
+
+	for id, name in pairs(su.room.contents) do
+		name = name:truncate(name_width)
+		cecho("readout", "&lt;forest_green&gt;%s &lt;a_grey&gt;%s" % {id:jright(id_width), name:jleft(name_width + 1)})
+		if i &gt;= col_count and c &lt; s then
+			echo("readout", "\n")
+			i = 1
+		else
+			i = i + 1
+		end
+
+		c = c + 1
+	end
+end
+
+local drawRoomMobiles = function ()
+	readoutModuleHeader("Mobiles", 245, 180, 79)
+
+	local i = 1
+	local c = 1
+	local s = table.size(su.room.mobs)
+
+	local icolor, mcolor = "forest_green", "a_darkgrey"
+	for id, name in pairs(su.room.mobs) do
+		if su.hunting.superhunting == true then
+			if id == getPriorityHuntTarget() then
+				icolor = "spring_green"
+				mcolor = "gold"
+			else
+				icolor = "forest_green"
+				mcolor = "a_darkgrey"
+			end
+		else
+			icolor = "forest_green"
+			mcolor = "a_grey"
+		end
+
+		name = name:truncate(name_width)
+		cecho("readout", "&lt;%s&gt;%s &lt;%s&gt;%s" % {icolor, id:jright(id_width), mcolor, name:jleft(name_width + 1)})
+		if i &gt;= col_count and c &lt; s then
+			echo("readout", "\n")
+			i = 1
+		else
+			i = i + 1
+		end
+
+		c = c + 1
+	end
+end
+
+local drawPlayerList = function ()
+	readoutModuleHeader("Players", 45, 180, 255)
+	local players = {}
+	for n, _ in pairs(su.room.players) do
+		players[#players+1] = n
+	end
+
+	if #players &gt; 0 then
+		local p_list = ""
+		if #players == 1 then
+			p_list = players[1]
+		else
+			for i, name in ipairs(players) do
+				if i == 1 then
+					p_list = name
+				elseif i == #players then
+					p_list = p_list .. ", and " .. name
+				else
+					p_list = p_list .. ", " .. name
+				end
+			end
+		end
+
+		if p_list ~= "" then p_list = p_list .. "." end
+
+		cecho("readout", "&lt;a_darkcyan&gt;" .. p_list)
+	else
+		cecho("readout", "&lt;a_darkgrey&gt;None.")
+	end
+end
+
+local drawRoomInfo = function ()
+	readoutModuleHeader("Room", 245, 222, 179, true)
+
+	local vnum = tostring(su.room.num)
+	cecho("readout", "&lt;a_darkcyan&gt;%s &lt;a_brown&gt;%s." % {vnum:jright(6), su.room.name})
+	cecho("readout", "\n&lt;dark_green&gt;%s &lt;sea_green&gt;%s." % {tostring(su.room.area_id):jright(6), getCleanAreaName()})
+
+	local flag_string = ""
+	for f, _ in pairs(room_flags) do
+		local val = room_flags[f].value()
+		local abbr = room_flags[f].abbr
+		local color = room_flags[f].color
+
+		if val ~= true then
+			color = "dead_grey"
+		end
+
+		flag_string = "%s&lt;%s&gt;%s  " % {flag_string, color, abbr}
+	end
+
+	cecho("readout", "\n\n  %s" % {flag_string})
+end
+
+local drawPlayerAfflictions = function ()
+	readoutModuleHeader("Your Afflictions", 255, 0, 255)
+
+	local linecount = 1
+	if table.size(cd.afflictions) == 0 then
+		cecho("readout", "&lt;a_darkcyan&gt;- &lt;a_darkgrey&gt;none")
+
+		for i = 1, 4 - linecount do
+			echo("readout", "\n")
+		end
+
+		return
+	end
+
+	local i = 0
+	for aff, time in pairs(cd.afflictions) do
+		local aff_string = "&lt;a_darkcyan&gt;- &lt;a_grey&gt;" .. aff
+		cecho("readout", aff_string .. string.space(26 - (3 + aff:len())))
+
+		i = i + 1
+		if i &gt; 2 then
+			i = 0
+			linecount = linecount + 1
+			echo("readout", "\n")
+		end
+	end
+
+	for i = 1, 4 - linecount do
+		echo("readout", "\n")
+	end
+end
+
+local drawEnemyAfflictions = function ()
+	readoutModuleHeader("Enemy Afflictions", 255, 120, 75)
+
+	local linecount = 1
+	if table.size(aff_tracker.enemy_afflictions) == 0 then
+		cecho("readout", "&lt;a_darkcyan&gt;- &lt;a_darkgrey&gt;none")
+
+		for i = 1, 4 - linecount do
+			echo("readout", "\n")
+		end
+
+		return
+	end
+
+	local i = 0
+	for aff, _ in pairs(aff_tracker.enemy_afflictions) do
+		local aff_string = "&lt;a_darkred&gt;- &lt;a_grey&gt;" .. aff
+		cecho("readout", aff_string .. string.space(26 - (3 + aff:len())))
+
+		i = i + 1
+		if i &gt; 2 then
+			i = 0
+			linecount = linecount + 1
+			echo("readout", "\n")
+		end
+	end
+
+	for i = 1, 4 - linecount do
+		echo("readout", "\n")
+	end
+end
+
+local drawCombatLog = function ()
+	readoutModuleHeader("Combat Log", 245, 245, 80)
+
+	if combatTimeline == nil or #combatTimeline == 0 then
+		cecho("readout", "&lt;a_darkgrey&gt;No report.")
+		return
+	end
+
+	for i, entry in ipairs(combatTimeline) do
+		cecho("readout", entry)
+		if i ~= #combatTimeline then
+			echo("readout", "\n")
+		end
+	end
+end
+
+-- Module routines. ------------------------------------------------------------
+
+doReadoutRoom = function ()
+	clearWindow("readout")
+
+	drawRoomInfo()
+	drawPlayerList()
+	drawRoomMobiles()
+	drawRoomItems()
+end
+
+-- local doReadoutAfflictions = function ()
+	-- clearWindow("readout")
+-- 
+	-- cecho("readout", "&lt;a_grey&gt;Your Afflictions:")
+-- 
+	-- if table.size(su.afflictions) == 0 then
+		-- cecho("readout", "\n&lt;gold&gt;You're okay.")
+	-- else
+		-- for aff, time in pairs(su.afflictions) do
+			-- local bal
+			-- if afflictionList[aff] then
+				-- bal = afflictionList[aff].balance
+			-- end
+	-- 
+			-- local col = "a_red"
+			-- if bal ~= nil and balColors[bal] then
+				-- col = balColors[bal]
+			-- end
+	-- 
+			-- local duration = math.round(os.clock() - time, 2)
+			-- cecho("readout", "\n&lt;" .. col .. "&gt;" .. aff .. string.space((18 - aff:len()) + (7 - tostring(duration):len())) .. "&lt;a_grey&gt;" .. duration .. "s")
+		-- end
+-- 
+		-- if cd.hiddenAffs ~= nil and cd.hiddenAffs &gt; 0 then
+			-- cecho("readout", "\n\n&lt;a_darkgrey&gt;Hidden Afflictions: &lt;a_red&gt;" .. cd.hiddenAffs)
+		-- end
+	-- end
+-- 
+	-- cecho("readout", "\n\n&lt;a_grey&gt;Enemy's Afflictions:")
+-- 
+	-- for aff, _ in pairs(aff_tracker.enemy_afflictions) do
+		-- cecho("readout", "\n  " .. aff)
+	-- end
+-- end
+
+-- local doReadoutMap = function ()
+	-- clearWindow("readout")
+-- 
+	-- cd.map.draw("readout", cd.room.num, 8, 5)
+-- end
+
+local doReadoutSystem = function ()
+	clearWindow("readout")
+
+	local averagePing = math.round(getAveragePing(), 3)
+	cecho("readout", "&lt;a_darkgrey&gt;Average Latency: &lt;su_light&gt;" .. averagePing)
+end
+
+-- local doReadoutCombat = function ()
+	-- clearWindow("readout")
+-- 
+	-- drawRoomInfo()
+	-- drawPlayerList()
+	-- drawPlayerAfflictions()
+	-- drawEnemyAfflictions()
+	-- drawCombatLog()
+-- end
+
+-- local doReadoutTest = function ()
+	-- clearWindow("readout")
+	-- local map_width, map_height = 5, 5
+	-- local plot = cd.map.getPlot(cd.room.num, map_width, map_height)
+-- 
+	-- for i = 1, map_height * 8 do
+		-- cecho("readout", "&lt;a_white&gt;" .. string.rep(" ", 79) .. "\n")
+	-- end
+-- 
+	-- for row, _ in ipairs(plot) do
+		-- for col, _ in ipairs(plot[row]) do
+			-- local x = col * 4
+			-- local y = row * 2
+			-- local vnum = plot[row][col].vnum
+			-- if vnum ~= nil then
+				-- local env_color = plot[row][col].env_color
+				-- moveCursor("readout", x + 1, y + 1)
+				-- cinsertText("readout", "&lt;" .. env_color .. "&gt;[ ]")
+			-- end
+		-- end
+	-- end
+-- end
+
+registerReadoutWindow()</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>UI Initialize</name>
+				<packageName></packageName>
+				<script>drawAllWindows()</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Modules</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Philtrum MES</name>
+				<packageName></packageName>
+				<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>Initialization and Installation</name>
+					<packageName></packageName>
+					<script>-- Module info.
+pmes = pmes or {}
+
+pmes.module_info = {
+	full_name = "Philtrum Mindsim Enhancement Suite",
+	name = "Philtrum MES",
+	author = "Quell Noxume",
+	date = "Jan. 6th, 2019",
+	description = "The PMES is an augmentation and personality package for all standard and luxury issue mindsims, focusing on taking the necessary tedium of life off of your hands, so you can focus on the things that matter.",
+}</script>
+					<eventHandlerList />
+				</Script>
+			</ScriptGroup>
+		</ScriptGroup>
+	</ScriptPackage>
+	<KeyPackage>
+		<Key isActive="yes" isFolder="no">
+			<name>Bash/Attack</name>
+			<packageName></packageName>
+			<script>if inShip() then
+	send("ship weapon autofire 2245", false)
+	return
+end
+
+if isAutoHunting() then
+	su.hunting.currently_attacking = true
+end
+
+Battle()</script>
+			<command></command>
+			<keyCode>16777264</keyCode>
+			<keyModifier>0</keyModifier>
+		</Key>
+		<Key isActive="yes" isFolder="no">
+			<name>Emergency Halt</name>
+			<packageName></packageName>
+			<script>if isAutoHunting() then
+	su.hunting.autohunting = false
+	su.hunting.currently_attacking = false
+	notify("STOP", "Auto-hunting disabled.")
+end</script>
+			<command></command>
+			<keyCode>16777275</keyCode>
+			<keyModifier>0</keyModifier>
+		</Key>
+		<KeyGroup isActive="yes" isFolder="yes">
+			<name>Movement</name>
+			<packageName></packageName>
+			<script></script>
+			<command></command>
+			<keyCode>-1</keyCode>
+			<keyModifier>-1</keyModifier>
+			<Key isActive="yes" isFolder="no">
+				<name>LOOK</name>
+				<packageName></packageName>
+				<script>move("look")</script>
+				<command></command>
+				<keyCode>53</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>SW</name>
+				<packageName></packageName>
+				<script>move("sw")</script>
+				<command></command>
+				<keyCode>49</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>S</name>
+				<packageName></packageName>
+				<script>move("s")</script>
+				<command></command>
+				<keyCode>50</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>SE</name>
+				<packageName></packageName>
+				<script>move("se")</script>
+				<command></command>
+				<keyCode>51</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>W</name>
+				<packageName></packageName>
+				<script>move("w")</script>
+				<command></command>
+				<keyCode>52</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>NW</name>
+				<packageName></packageName>
+				<script>move("nw")</script>
+				<command></command>
+				<keyCode>55</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>N</name>
+				<packageName></packageName>
+				<script>move("n")</script>
+				<command></command>
+				<keyCode>56</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>NE</name>
+				<packageName></packageName>
+				<script>move("ne")</script>
+				<command></command>
+				<keyCode>57</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>UP</name>
+				<packageName></packageName>
+				<script>move("up")</script>
+				<command></command>
+				<keyCode>45</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>DN</name>
+				<packageName></packageName>
+				<script>move("down")</script>
+				<command></command>
+				<keyCode>43</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>IN</name>
+				<packageName></packageName>
+				<script>move("in")</script>
+				<command></command>
+				<keyCode>47</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>OUT</name>
+				<packageName></packageName>
+				<script>move("out")</script>
+				<command></command>
+				<keyCode>42</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>E</name>
+				<packageName></packageName>
+				<script>move("e")</script>
+				<command></command>
+				<keyCode>54</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>MAP</name>
+				<packageName></packageName>
+				<script></script>
+				<command>map</command>
+				<keyCode>48</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<KeyGroup isActive="yes" isFolder="yes">
+				<name>CTRL Modifier</name>
+				<packageName></packageName>
+				<script></script>
+				<command></command>
+				<keyCode>-1</keyCode>
+				<keyModifier>-1</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>SW</name>
+					<packageName></packageName>
+					<script>move("sw", "control")</script>
+					<command></command>
+					<keyCode>49</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>S</name>
+					<packageName></packageName>
+					<script>move("s", "control")</script>
+					<command></command>
+					<keyCode>50</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>SE</name>
+					<packageName></packageName>
+					<script>move("se", "control")</script>
+					<command></command>
+					<keyCode>51</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>W</name>
+					<packageName></packageName>
+					<script>move("w", "control")</script>
+					<command></command>
+					<keyCode>52</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>NW</name>
+					<packageName></packageName>
+					<script>move("nw", "control")</script>
+					<command></command>
+					<keyCode>55</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>N</name>
+					<packageName></packageName>
+					<script>move("n", "control")</script>
+					<command></command>
+					<keyCode>56</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>NE</name>
+					<packageName></packageName>
+					<script>move("ne", "control")</script>
+					<command></command>
+					<keyCode>57</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>E</name>
+					<packageName></packageName>
+					<script>move("e", "control")</script>
+					<command></command>
+					<keyCode>54</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>UP</name>
+					<packageName></packageName>
+					<script>send("ship halt", false)</script>
+					<command></command>
+					<keyCode>45</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>DN</name>
+					<packageName></packageName>
+					<script>send("ship thrust 70", false)</script>
+					<command></command>
+					<keyCode>43</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>IN</name>
+					<packageName></packageName>
+					<script>move("in", "control")</script>
+					<command></command>
+					<keyCode>47</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>OUT</name>
+					<packageName></packageName>
+					<script>send("ship beacon", false)</script>
+					<command></command>
+					<keyCode>42</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>SHIP BEACON</name>
+					<packageName></packageName>
+					<script>send("ship beacon", false)</script>
+					<command></command>
+					<keyCode>53</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+			</KeyGroup>
+			<KeyGroup isActive="yes" isFolder="yes">
+				<name>ALT Modifier</name>
+				<packageName></packageName>
+				<script></script>
+				<command></command>
+				<keyCode>-1</keyCode>
+				<keyModifier>-1</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>SW</name>
+					<packageName></packageName>
+					<script>move("southwest", "alt")</script>
+					<command></command>
+					<keyCode>49</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>S</name>
+					<packageName></packageName>
+					<script>move("south", "alt")</script>
+					<command></command>
+					<keyCode>50</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>SE</name>
+					<packageName></packageName>
+					<script>move("southeast", "alt")</script>
+					<command></command>
+					<keyCode>51</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>W</name>
+					<packageName></packageName>
+					<script>move("west", "alt")</script>
+					<command></command>
+					<keyCode>52</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>NW</name>
+					<packageName></packageName>
+					<script>move("northwest", "alt")</script>
+					<command></command>
+					<keyCode>55</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>N</name>
+					<packageName></packageName>
+					<script>move("north", "alt")</script>
+					<command></command>
+					<keyCode>56</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>NE</name>
+					<packageName></packageName>
+					<script>move("northeast", "alt")</script>
+					<command></command>
+					<keyCode>57</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>E</name>
+					<packageName></packageName>
+					<script>move("east", "alt")</script>
+					<command></command>
+					<keyCode>54</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>UP</name>
+					<packageName></packageName>
+					<script>move("up", "alt")</script>
+					<command></command>
+					<keyCode>45</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>DN</name>
+					<packageName></packageName>
+					<script>move("down", "alt")</script>
+					<command></command>
+					<keyCode>43</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>IN</name>
+					<packageName></packageName>
+					<script>move("in", "alt")</script>
+					<command></command>
+					<keyCode>47</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>OUT</name>
+					<packageName></packageName>
+					<script>move("out", "alt")</script>
+					<command></command>
+					<keyCode>42</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+			</KeyGroup>
+		</KeyGroup>
+		<Key isActive="yes" isFolder="no">
+			<name>Heal</name>
+			<packageName></packageName>
+			<script>local c = shortClassName(su.char.class)
+send(su.classes[c].heal(), false)</script>
+			<command></command>
+			<keyCode>16777265</keyCode>
+			<keyModifier>0</keyModifier>
+		</Key>
+	</KeyPackage>
+	<VariablePackage>
+		<HiddenVariables />
+	</VariablePackage>
+</MudletPackage>
